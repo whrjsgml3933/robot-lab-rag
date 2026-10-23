@@ -1,0 +1,38 @@
+[
+  {
+    "robot_id": "robot_002",
+    "title": "스팟 (로봇)",
+    "file": "documents/robot_002_wikipedia.txt",
+    "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+    "item_document": true,
+    "license": "CC BY-SA 4.0",
+    "attribution_url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)?action=history",
+    "provenance": "cache_v3\\body_a23c01ef30c424c68c25c6edc8594a068ed4343198683fef836534e1053625b5.json",
+    "prepared_at": "2026-10-23",
+    "note": "기존 TextExtracts 본문 캐시를 변경 없이 복원. 최초 수집일과 문서 revision은 캐시에 없어 미확인."
+  },
+  {
+    "robot_id": "robot_006",
+    "title": "아메카 (로봇)",
+    "file": "documents/robot_006_wikipedia.txt",
+    "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EC%B9%B4_(%EB%A1%9C%EB%B4%87)",
+    "item_document": true,
+    "license": "CC BY-SA 4.0",
+    "attribution_url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EC%B9%B4_(%EB%A1%9C%EB%B4%87)?action=history",
+    "provenance": "cache_v3\\body_ae1d4fc175f67fa99749381d87b6d15a867b77b9922d9f5e0333ba4f87e27524.json",
+    "prepared_at": "2026-10-23",
+    "note": "기존 TextExtracts 본문 캐시를 변경 없이 복원. 최초 수집일과 문서 revision은 캐시에 없어 미확인."
+  },
+  {
+    "robot_id": "robot_061",
+    "title": "페퍼 (로봇)",
+    "file": "documents/robot_061_wikipedia.txt",
+    "url": "https://ko.wikipedia.org/wiki/%ED%8E%98%ED%8D%BC_(%EB%A1%9C%EB%B4%87)",
+    "item_document": true,
+    "license": "CC BY-SA 4.0",
+    "attribution_url": "https://ko.wikipedia.org/wiki/%ED%8E%98%ED%8D%BC_(%EB%A1%9C%EB%B4%87)?action=history",
+    "provenance": "cache_v3\\body_c6858fcc741b9a4c506c4af8a2531363aa74931396ebec75aed0da5339843ecb.json",
+    "prepared_at": "2026-10-23",
+    "note": "기존 TextExtracts 본문 캐시를 변경 없이 복원. 최초 수집일과 문서 revision은 캐시에 없어 미확인."
+  }
+]

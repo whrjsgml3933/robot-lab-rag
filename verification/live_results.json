@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-23",
+  "scope": "등록 원문 기반 실제 GMS·Chroma 검증; 외부 검색 API는 별도 검증",
+  "checks": [
+    {
+      "name": "입력과 메타데이터 색인 수",
+      "passed": true,
+      "actual": {
+        "robot_meta_v2": 200,
+        "robot_docs_v2": 1641
+      }
+    },
+    {
+      "name": "메타데이터 반복 색인",
+      "passed": true,
+      "actual": [
+        0,
+        0,
+        {
+          "robot_meta_v2": 200,
+          "robot_docs_v2": 1641
+        }
+      ]
+    },
+    {
+      "name": "원문 반복 색인 robot_002",
+      "passed": true,
+      "actual": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "원문 반복 색인 robot_006",
+      "passed": true,
+      "actual": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "원문 반복 색인 robot_061",
+      "passed": true,
+      "actual": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "답변 생성 1",
+      "passed": true,
+      "actual": {
+        "seconds": 17.35,
+        "citations": 5
+      }
+    },
+    {
+      "name": "답변 생성 2",
+      "passed": true,
+      "actual": {
+        "seconds": 11.31,
+        "citations": 1
+      }
+    },
+    {
+      "name": "답변 생성 3",
+      "passed": true,
+      "actual": {
+        "seconds": 14.13,
+        "citations": 0
+      }
+    },
+    {
+      "name": "답변 생성 4",
+      "passed": true,
+      "actual": {
+        "seconds": 12.98,
+        "citations": 3
+      }
+    },
+    {
+      "name": "검색어 캐시 재사용",
+      "passed": true,
+      "actual": [
+        "동일 모델·질문의 검색어 캐시 재사용",
+        "동일 모델·질문의 검색어 캐시 재사용",
+        "검색어: Boston Dynamics Spot / Spot / 스팟 / Spot deployment sites",
+        "질문 추가 검색 출처 0개: (제공 문서만 사용)",
+        "후보 1건 선별 중",
+        "선별 결과: 후보 1건 → 채택 1건",
+        "이번 요청의 외부 문서 색인 확인: 1건",
+        "동일 모델·질문의 검색어 캐시 재사용",
+        "검색어: Boston Dynamics Spot / Spot / 스팟 / Spot deployment sites",
+        "질문 추가 검색 출처 0개: (제공 문서만 사용)",
+        "후보 1건 선별 중",
+        "선별 결과: 후보 1건 → 채택 1건",
+        "이번 요청의 외부 문서 색인 확인: 1건",
+        "동일 모델·질문의 검색어 캐시 재사용",
+        "검색어: Boston Dynamics Spot / Spot / 스팟 / Spot deployment sites",
+        "질문 추가 검색 출처 0개: (제공 문서만 사용)",
+        "후보 1건 선별 중",
+        "선별 결과: 후보 1건 → 채택 1건",
+        "이번 요청의 외부 문서 색인 확인: 1건",
+        "동일 모델·질문의 검색어 캐시 재사용",
+        "검색어: Boston Dynamics Spot / Spot / 스팟 / Spot deployment sites",
+        "질문 추가 검색 출처 0개: (제공 문서만 사용)",
+        "후보 1건 선별 중",
+        "선별 결과: 후보 1건 → 채택 1건",
+        "이번 요청의 외부 문서 색인 확인: 1건"
+      ]
+    },
+    {
+      "name": "자연어 조건 검색",
+      "passed": true,
+      "actual": [
+        "robot_002",
+        "robot_011"
+      ]
+    },
+    {
+      "name": "LangGraph 두 처리 노드",
+      "passed": true,
+      "actual": [
+        "__start__",
+        "retrieve",
+        "generate",
+        "__end__"
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "robot_id": "robot_002",
+      "question": "이 로봇은 어떤 현장에서 활용되었나요? 근거에서 확인한 사례만 알려주세요.",
+      "mode": "chat",
+      "seconds": 17.35,
+      "history": [],
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "source_type": "사용자 제공 메타데이터",
+          "url": "",
+          "file": "robots_data.json",
+          "content_kind": "출처 정확성 미검증 입력 자료",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "robot_model": "Spot",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "source_type": "arXiv 논문",
+          "item_document": true,
+          "source_key": "arxiv",
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "content_kind": "초록",
+          "full_body": false,
+          "robot_id": "robot_002",
+          "file": "",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "file": "",
+          "title": "Towards Autonomous Bricklaying Using Boston Dynamics Spot",
+          "source_type": "arXiv 논문",
+          "robot_id": "robot_002",
+          "item_document": true,
+          "full_body": false,
+          "robot_model": "Spot",
+          "content_kind": "초록",
+          "source_key": "arxiv",
+          "doc_key": "bdad2e260a1dcfa6894bbf69d397f83120976ffb7505ce3a171f351f80585006",
+          "url": "http://arxiv.org/abs/2610.27472v1",
+          "text": "Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly for robotic execution. We evaluate placement accuracy through ten repeated assemblies of a curved four-layer wall comprising 14 wooden bricks. Results show mean translation errors below 10 mm and mean yaw errors below 1.5 degrees, while the overall RMSE across all runs is 27.72 mm (translation) and 2.06 degrees (rotation). The system was also tested outdoors with stairs between the two areas. The w"
+        },
+        {
+          "source_type": "arXiv 논문",
+          "content_kind": "초록",
+          "url": "http://arxiv.org/abs/2508.16504v1",
+          "robot_model": "Spot",
+          "file": "",
+          "title": "Terrain Classification for the Spot Quadrupedal Mobile Robot Using Only Proprioceptive Sensing",
+          "robot_id": "robot_002",
+          "item_document": true,
+          "source_key": "arxiv",
+          "doc_key": "71227eeb486684d2851d96cafe6c7b0d21261470f6c95ad0cb859bfdbfb3b377",
+          "full_body": false,
+          "text": "Quadrupedal mobile robots can traverse a wider range of terrain types than their wheeled counterparts but do not perform the same on all terrain types. These robots are prone to undesirable behaviours like sinking and slipping on challenging terrains. To combat this issue, we propose a terrain classifier that provides information on terrain type that can be used in robotic systems to create a traversability map to plan safer paths for the robot to navigate. The work presented here is a terrain classifier developed for a Boston Dynamics Spot robot. Spot provides over 100 measured proprioceptive signals describing the motions of the robot and its four legs (e.g., foot penetration, forces, joint angles, etc.). The developed terrain classifier combines dimensionality reduction techniques to extract relevant information from the signals and then applies a classification technique to differentiate terrain based on traversability. In representative field testing, the resulting terrain classif"
+        },
+        {
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "robot_model": "Spot",
+          "source_key": "arxiv",
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "file": "",
+          "full_body": false,
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "item_document": true,
+          "source_type": "arXiv 논문",
+          "content_kind": "초록",
+          "robot_id": "robot_002",
+          "text": "icult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capable of over 5.2ms locomotion, more than triple Spots default controller maximum speed, robustness to slippery surfaces, disturbance rejection, and overall agility previously unseen on Spot. We detail our method and release our code to support future work on Spot with the low level API."
+        },
+        {
+          "robot_id": "robot_002",
+          "robot_model": "Spot",
+          "doc_key": "3ed21bf0a6383df043934c3f71662b095e89d7524d8c48766b3cda8d8d53e908",
+          "source_type": "위키백과",
+          "source_key": "wikipedia",
+          "full_body": true,
+          "content_kind": "본문",
+          "file": "",
+          "title": "보행 로봇",
+          "item_document": false,
+          "url": "https://ko.wikipedia.org/wiki/%EB%B3%B4%ED%96%89_%EB%A1%9C%EB%B4%87",
+          "text": "터 히로세-요네다 연구소에서 개발한 TITAN 시리즈\n2005년 보스턴 다이내믹스, 미국 항공 우주국 제트 추진 연구소, 하버드 대학교 콩코드 필드 스테이션이 개발한 동적으로 안정적인 BigDog\nBigDog의 후속 모델인 Legged Squad Support System (LS3)\n보스턴 다이내믹스의 Spot\n위슈커지의 ANYmal 및 ANYmal X(방폭 버전)\nMIT의 새로운 백플립이 가능한 미니 치타 로봇\n위슈커지의 Aliengo\nStanford Pupper\n8DOF 및 12DOF를 갖춘 Open Dynamic Robot Initiative 로봇\n움직이는 척추를 가진 Bobcat 로봇\n바이오로보틱스 연구소의 Cheetah-Cub 로봇\n바이오로보틱스 연구소의 Oncilla 로봇(오픈 소스)\n다이내믹 로코모션 그룹의 Morti 로봇\nMAB Robotics의 Honey Badger\n\n\n=== 6족 ===\n6족 보행 로봇 혹은 헥사포드는 2족이나 4족 보행 로봇보다 더 큰 안정성을 확보하려는 욕구에서 시작되었다. 최종 설계는 종종 곤충의 역학을 모방하며, 걸음걸이 역시 유사하게 분류될 수 있다.\n\n파동 걸음(Wave gait): 가장 느린 걸음걸이로, 다리 쌍이 뒤에서 앞으로 \"파동\"처럼 움직인다.\n삼각대 걸음(Tripod gait): 약간 더 빠른 걸음걸이로, 세 다리가 동시에 움직인다. 나머지 세 다리는 로봇을 위한 안정적인 삼각대를 형성한다.\n6족 보행 로봇의 예는 다음과 같다.\n\n독일의 FZI Forschungszentrum Informatik에서 개발 중인 생체 모방 6족 로봇 LAURON\n1980년대 Odetics에서 개발한 375파운드 무게의 헥사포드 Odex. 각 다리를 제어하는 온보드 컴퓨터로 유명했다.\n1980년대 MIT에서 로드니 브룩스가 개발한 초기 자율 6족 로봇 중 하나인 Genghis.\n현대적인 장난감 시리즈 Hexbug\n\n\n=== 8족 ===\n8족 보행 로봇은 거미 및 기타 거미류, 그리고 일부 수중 보행 생물에서 영감을 받았다. "
+        }
+      ],
+      "answer": "제공된 근거에서 확인되는 사례는 다음과 같습니다.\n\n- **건설 작업 연구:** Spot에 로봇 팔을 장착해 벽돌을 자율적으로 쌓는 개념검증 시스템이 제시되었습니다. 보급 구역과 조립 구역 사이를 이동하며 작업했고, 두 구역 사이에 계단이 있는 야외 환경에서도 시험했습니다. 이는 연구·시험 사례이며, 상용 현장 운영을 입증하는 자료는 아닙니다. [근거 3]\n- **지형 분류 연구의 현장 시험:** Spot의 몸체·다리에서 얻는 신호를 이용해 지형을 분류하는 연구가 대표적인 현장 시험을 했다고 초록에 적혀 있습니다. 다만 제공된 내용에는 시험 장소나 구체적인 지형 종류가 나와 있지 않습니다. [근거 4]\n\n그 밖에 초록에는 Spot 하드웨어에서 강화학습 정책을 시험·배포한 연구도 나오지만, 특정 현장에서 활용했다는 사례는 확인되지 않습니다. [근거 2, 5]\n\n건설 현장이나 발전소 순찰은 사용자 제공 메타데이터에 적힌 설명이지만, 그 자료의 출처 정확성이 검증되지 않아 확인된 활용 사례로 제시하지 않았습니다. [근거 1]",
+      "queries": [
+        "Boston Dynamics Spot",
+        "Spot",
+        "스팟",
+        "Spot deployment sites"
+      ],
+      "audit": [
+        {
+          "candidate_id": "c1",
+          "title": "스팟 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "selected": true,
+          "item_document": true,
+          "index_status": "색인 확인 · 본문"
+        }
+      ]
+    },
+    {
+      "robot_id": "robot_006",
+      "question": "이 로봇의 개발사와 활용 목적을 알려주세요.",
+      "mode": "chat",
+      "seconds": 11.31,
+      "history": [],
+      "sources": [
+        {
+          "title": "Ameca 기본 정보",
+          "source_type": "사용자 제공 메타데이터",
+          "url": "",
+          "file": "robots_data.json",
+          "content_kind": "출처 정확성 미검증 입력 자료",
+          "text": "robot_id: robot_006\nmodel_name: Ameca\nmanufacturer: Engineered Arts\ncategory: 서비스 휴머노이드\npurpose: 인간-로봇 상호작용(HRI) 연구 및 전시 안내\nsensors: 눈 부위 RGB 카메라, 마이크 어레이, 얼굴 인식 센서\nspecifications: 상반신 관절 52개, 33개 얼굴 표정 모듈, 실시간 음성 합성 연동\ndescription: 사람과 매우 유사한 미세한 얼굴 표정 제어가 가능하여 HRI 연구에 폭넓게 활용되는 서비스 로봇입니다."
+        },
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EC%B9%B4_(%EB%A1%9C%EB%B4%87)",
+          "attribution_url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EC%B9%B4_(%EB%A1%9C%EB%B4%87)?action=history",
+          "content_kind": "본문",
+          "file": "documents/robot_006_wikipedia.txt",
+          "full_body": true,
+          "robot_id": "robot_006",
+          "doc_key": "6035a3c57255cdfb660e29a526ffc2fcd69b16be145d0db5a37e37c7a5a19c54",
+          "license": "CC BY-SA 4.0",
+          "item_document": true,
+          "source_type": "사용자 제공 외부 원문",
+          "title": "아메카 (로봇)",
+          "source_key": "local",
+          "robot_model": "Ameca",
+          "text": "아메카(Ameca)는 영국 콘월주 팰머스에 본사를 둔 엔지니어드 아츠가 2021년에 만든 로봇 휴머노이드이다. 이 프로젝트는 2021년 2월에 시작되었고, 첫 공개 시연은 라스베이거스에서 열린 CES 2022 쇼에서였다. 아메카의 외형은 얼굴과 손에 회색 고무 피부를 특징으로 하며, 특히 성별이 없는 모습으로 디자인되었다.\n2024년, 아메카는 영국 에든버러의 국립 로보타리움으로 옮겨졌다.\n아메카 3세대는 ICRA 2025에서 보행 능력을 가진 아미와 함께 공개되었다.\n\n\n== 역사 ==\n아메카의 첫 세대는 영국 콘월주 팰머스에 있는 엔지니어드 아츠 본사에서 개발되었다. 이 프로젝트는 2021년 2월에 시작되었으며, 첫 번째 비디오는 2021년 12월 1일에 공개되었다. 아메카는 컨슈머 일렉트로닉스 쇼 2022에서 첫 공개 시연에 앞서 X (소셜 네트워크)와 틱톡에서 폭넓은 주목을 받았으며, CNET 및 다른 언론 매체에서도 다루었다.\n2022년, 아메카는 크리스마스에 영국 TV 채널 4의 대안 크리스마스 메시지를 발표했다. 아메카는 미래 박물관의 로봇 가족과 연관되어 방문객과 상호작용할 수 있었다. 2024년, 아메카는 영국 에든버러의 국립 로보타리움으로 옮겨졌다.\n\n\n== 특징 ==\n이는 인간-로봇 상호작용과 관련된 로봇 기술의 추가 개발을 위한 플랫폼으로 설계되었다. 내장 마이크, 양안 안구 카메라, 가슴 카메라 및 안면 인식 소프트웨어를 활용하여 대중과 상호작용한다. 상호작용은 오픈AI의 GPT-3 또는 인간 원격현장감에 의해 제어될 수 있다. 또한 관절형 전동 팔, 손가락, 목 및 얼굴 특징을 갖추고 있다.\n아메카의 외형은 얼굴과 손에 회색 고무 피부를 특징으로 하며, 특히 성별이 없는 모습으로 디자인되었다.\n\n\n== 대중 등장 ==\n컴퓨터 역사 박물관, 캘리포니아\n하인츠 닉스도르프 박물관 포럼, 독일 파더보른\n코페르니쿠스 과학 센터, 폴란드 바르샤바\n두바이 미래 박물관\n컨슈머 일렉트로닉스 쇼 2022\n독일 박물관 뉘른베르크\nOMR 페스티벌 2022 "
+        },
+        {
+          "full_body": true,
+          "robot_model": "Ameca",
+          "item_document": false,
+          "file": "",
+          "content_kind": "본문",
+          "url": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C_%EB%A1%9C%EB%B4%87",
+          "robot_id": "robot_006",
+          "source_key": "wikipedia",
+          "source_type": "위키백과",
+          "title": "휴머노이드 로봇",
+          "doc_key": "2a1d2d46bbb8d58832eeee27687948fc30f2c1f3c942d277292811285939966d",
+          "text": "처음으로 '휴머노이드 공동관(K-HEROID)'을 구성하여 에이로봇을 비롯한 휴머노이드 플랫폼, 인공지능(AI), 부품사 등 10개 기업이 직접 참여해 한국의 휴머노이드 생태계를 선보일 예정이다.\n현대차그룹이 2028년 가동을 목표로 미국 조지아주나 앨라배마주 인근에 3만 대의 연간 생산 규모의 휴머노이드 로봇 전용 공장 설립을 추진 중이다.\n\n\n== 응용 분야 ==\n\n휴머노이드 로봇은 현재 여러 과학 분야에서 연구 도구로 사용된다. 연구자들은 휴머노이드 로봇을 제작하기 위해 인체 구조와 행동(생체역학)을 연구한다. 반면에 인체를 시뮬레이션하려는 시도는 인체에 대한 더 나은 이해로 이어진다. 인간 인지는 지각 및 운동 기술을 습득하기 위해 감각 정보로부터 인간이 어떻게 학습하는지에 초점을 맞춘 연구 분야이다. 이 지식은 인간 행동의 계산 모델을 개발하는 데 사용되며 시간이 지남에 따라 개선되고 있다.\n매우 진보된 로봇 공학이 일반 인간의 강화를 촉진할 것이라는 제안도 있다. 트랜스휴머니즘을 참조하라.\n\n\n=== 의료 및 연구 ===\n휴머노이드 로봇은 의료 및 생명공학 분야뿐만 아니라 생체역학 및 인지 과학과 같은 다른 연구 분야에서도 귀중한 자원이다. 휴머노이드 로봇은 사지 결손과 같은 신체 장애가 있는 개인을 위한 복잡한 보철을 개발하는 데 사용되고 있다. WABIAN-2는 환자의 하지 재활을 돕기 위해 제작된 새로운 의료용 휴머노이드 로봇이다.\n휴머노이드 연구의 초기 목표는 인간을 위한 더 나은 보조기 및 보철물을 제작하는 것이었지만, 두 분야 사이에 지식이 이전되었다. 신경근 장애인을 위한 동력 다리 보철물, 발목-발 보조기, 생물학적으로 사실적인 다리 보철물 및 전완 보철물이 몇 가지 예이다.\n휴머노이드 로봇은 개인화된 헬스케어 보조 기구의 실습 및 개발을 위한 테스트 대상으로 사용될 수 있으며, 본질적으로 노인과 같은 인구 통계를 위한 로봇 간호사 역할을 수행한다. 휴머노이드는 접수처 관리자나 자동차 제조 라인 작업자와 같은 일부 절차 중심 직업에도 "
+        },
+        {
+          "doc_key": "2a1d2d46bbb8d58832eeee27687948fc30f2c1f3c942d277292811285939966d",
+          "content_kind": "본문",
+          "robot_model": "Ameca",
+          "file": "",
+          "title": "휴머노이드 로봇",
+          "robot_id": "robot_006",
+          "source_key": "wikipedia",
+          "url": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C_%EB%A1%9C%EB%B4%87",
+          "item_document": false,
+          "source_type": "위키백과",
+          "full_body": true,
+          "text": "추에이터를 사용하는 것이 일반적이다. 전기 액추에이터를 사용하는 휴머노이드 로봇의 예로는 HRP-2가 있다.\n\n\n=== 유압식 ===\n유압 액추에이터는 전기 액추에이터나 공압 액추에이터보다 높은 출력을 내며, 다른 유형의 액추에이터보다 생성하는 토크를 더 잘 제어할 수 있는 능력이 있다. 그러나 크기가 매우 커질 수 있다. 크기 문제를 해결하기 위한 한 가지 방법은 전기 유압식 액추에이터(EHA)이다. 유압 액추에이터를 사용하는 휴머노이드 로봇의 가장 유명한 예는 보스턴 다이내믹스가 제작한 아틀라스 로봇이다.\n\n\n=== 공압식 ===\n공압 액추에이터는 기체의 압축률을 기반으로 작동한다. 팽창하면 축을 따라 확장되고, 수축하면 축소된다. 한쪽 끝이 고정되어 있으면 다른 쪽 끝은 선형 궤적으로 이동한다. 공압 액추에이터의 대중적인 예로는 맥키번(Mac Kibben) 근육이 있다.\n\n\n== 계획 및 제어 ==\n로봇의 계획은 로봇이 수행할 동작과 궤적을 계획하는 과정이다. 제어는 이러한 계획된 동작과 궤적의 실제 실행이다. 휴머노이드 로봇에서 계획은 이족 보행 동작을 수행해야 하며, 이는 로봇이 인간과 유사한 동작을 계획해야 함을 의미한다. 휴머노이드 로봇의 주요 용도 중 하나가 인간과 상호 작용하는 것이므로, 휴머노이드 로봇의 계획 및 제어 메커니즘이 다양한 지형과 환경에서 작동하는 것이 중요하다.\n표면 위에서 걷는 이족 보행 로봇의 안정화 문제는 매우 중요하다. 안정적인 자세를 제공하기 위해 지지 영역의 중심 위에 로봇의 무게 중심을 유지하는 것이 제어의 목표로 설정될 수 있다.\n보행 중 동적 균형을 유지하기 위해 로봇은 접촉력과 현재 및 원하는 운동에 대한 정보가 필요하다. 이 문제의 해결은 주요 개념인 제로 모멘트 포인트(ZMP)에 의존한다.\n휴머노이드 로봇의 또 다른 특징은 이동하고, (센서를 사용하여) \"실제 세계\"에 대한 정보를 수집하며, 그와 상호 작용한다는 점이다. 이들은 고도로 구조화된 환경에서 작업하는 공장용 매니퓰레이터나 다른 로봇들처럼 가만히 "
+        },
+        {
+          "robot_model": "Ameca",
+          "source_type": "위키백과",
+          "url": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C_%EB%A1%9C%EB%B4%87",
+          "file": "",
+          "full_body": true,
+          "doc_key": "2a1d2d46bbb8d58832eeee27687948fc30f2c1f3c942d277292811285939966d",
+          "content_kind": "본문",
+          "robot_id": "robot_006",
+          "title": "휴머노이드 로봇",
+          "item_document": false,
+          "source_key": "wikipedia",
+          "text": "기술의 새로운 기술적 진보를 보여주기 위해 대중에게 공개된다. 다른 휴머노이드 로봇들은 가사 용도로 개발되었으나, 단일 목적 기술에만 능숙하며 자율성과는 거리가 멀다. 특히 인공지능 알고리즘을 갖춘 휴머노이드 로봇은 임무가 완료된 후 다시 지구로 돌아올 필요 없이, 미래의 위험하거나 먼 우주 탐사 임무에 유용할 수 있다.\n\n\n== 센서 ==\n센서는 세상의 어떤 속성을 측정하는 장치이다. 로봇 공학의 세 가지 요소(계획 및 제어와 함께) 중 하나인 감지는 로봇 공학 패러다임에서 중요한 역할을 한다.\n센서는 작동하는 물리적 공정에 따라 분류하거나 출력으로 제공하는 측정 정보의 유형에 따라 분류할 수 있다. 여기서는 두 번째 접근 방식이 사용되었다.\n\n\n=== 자기수용성 ===\n자기수용성(Proprioceptive) 센서는 휴머노이드의 신체와 관절의 위치, 방향, 속도 및 기타 내부 값을 감지한다.\n인간의 경우, 균형과 방향을 유지하기 위해 이석과 반고리관(내이에 위치)이 사용된다. 또한 인간은 자신의 자기수용성 센서(예: 촉각, 근육 신장, 사지 위치)를 사용하여 방향을 잡는 데 도움을 받는다. 휴머노이드 로봇은 가속도를 측정하기 위해 가속도계를 사용하며, 이로부터 적분을 통해 속도를 계산할 수 있다. 또한 경사를 측정하는 경사 센서, 환경과의 접촉력을 측정하기 위해 로봇의 손과 발에 배치된 힘 센서, 로봇의 실제 위치를 나타내는 위치 센서(이로부터 미분을 통해 속도를 계산할 수 있음), 그리고 속도 센서까지 사용한다.\n\n\n=== 외수용성 ===\n\n촉각 요소(tactel) 배열을 사용하여 접촉된 대상에 대한 데이터를 제공할 수 있다. 섀도 핸드는 각 손가락 끝의 폴리우레탄 피부 아래에 배열된 34개의 촉각 요소 배열을 사용한다. 촉각 센서는 또한 로봇과 다른 물체 사이에서 전달되는 힘과 토크에 대한 정보를 제공한다.\n비전은 이미지를 생성하기 위해 전자기 스펙트럼을 사용하는 모든 양식의 데이터를 처리하는 것을 말한다. 휴머노이드 로봇에서 비전은 물체를 인식하고 그 "
+        }
+      ],
+      "answer": "Ameca의 개발사는 영국의 **Engineered Arts**입니다. [근거 2] 이 로봇은 인간-로봇 상호작용(HRI) 기술을 연구·개발하기 위한 플랫폼으로 설계되었습니다. [근거 2]\n\n※ 근거는 제공된 위키백과 본문이며, 개발사나 목적을 공식 자료로 별도 확인한 것은 아닙니다.",
+      "queries": [
+        "Engineered Arts Ameca",
+        "Ameca",
+        "아메카",
+        "Ameca developer applications"
+      ],
+      "audit": [
+        {
+          "candidate_id": "c1",
+          "title": "아메카 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EC%B9%B4_(%EB%A1%9C%EB%B4%87)",
+          "selected": true,
+          "item_document": true,
+          "index_status": "색인 확인 · 본문"
+        }
+      ]
+    },
+    {
+      "robot_id": "robot_002",
+      "question": "이 로봇의 250도 고온 구역 운용 인증번호를 알려주세요. 자료에 없으면 확인불가라고 답하세요.",
+      "mode": "chat",
+      "seconds": 14.13,
+      "history": [],
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "source_type": "사용자 제공 메타데이터",
+          "url": "",
+          "file": "robots_data.json",
+          "content_kind": "출처 정확성 미검증 입력 자료",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "item_document": true,
+          "source_type": "arXiv 논문",
+          "content_kind": "초록",
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "source_key": "arxiv",
+          "robot_id": "robot_002",
+          "file": "",
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "full_body": false,
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "robot_model": "Spot",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "source_type": "arXiv 논문",
+          "source_key": "arxiv",
+          "full_body": false,
+          "robot_model": "Spot",
+          "robot_id": "robot_002",
+          "item_document": true,
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "file": "",
+          "content_kind": "초록",
+          "text": "icult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capable of over 5.2ms locomotion, more than triple Spots default controller maximum speed, robustness to slippery surfaces, disturbance rejection, and overall agility previously unseen on Spot. We detail our method and release our code to support future work on Spot with the low level API."
+        },
+        {
+          "content_kind": "초록",
+          "item_document": true,
+          "robot_model": "Spot",
+          "url": "http://arxiv.org/abs/2508.16504v1",
+          "robot_id": "robot_002",
+          "file": "",
+          "doc_key": "71227eeb486684d2851d96cafe6c7b0d21261470f6c95ad0cb859bfdbfb3b377",
+          "source_type": "arXiv 논문",
+          "full_body": false,
+          "source_key": "arxiv",
+          "title": "Terrain Classification for the Spot Quadrupedal Mobile Robot Using Only Proprioceptive Sensing",
+          "text": "Quadrupedal mobile robots can traverse a wider range of terrain types than their wheeled counterparts but do not perform the same on all terrain types. These robots are prone to undesirable behaviours like sinking and slipping on challenging terrains. To combat this issue, we propose a terrain classifier that provides information on terrain type that can be used in robotic systems to create a traversability map to plan safer paths for the robot to navigate. The work presented here is a terrain classifier developed for a Boston Dynamics Spot robot. Spot provides over 100 measured proprioceptive signals describing the motions of the robot and its four legs (e.g., foot penetration, forces, joint angles, etc.). The developed terrain classifier combines dimensionality reduction techniques to extract relevant information from the signals and then applies a classification technique to differentiate terrain based on traversability. In representative field testing, the resulting terrain classif"
+        },
+        {
+          "source_key": "local",
+          "title": "스팟 (로봇)",
+          "attribution_url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)?action=history",
+          "doc_key": "b12f5c54c9ea25cc029cf88a7f99f7441a518048d6c5f908b98ca0591b9165cb",
+          "license": "CC BY-SA 4.0",
+          "full_body": true,
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "robot_model": "Spot",
+          "item_document": true,
+          "content_kind": "본문",
+          "source_type": "사용자 제공 외부 원문",
+          "file": "documents/robot_002_wikipedia.txt",
+          "robot_id": "robot_002",
+          "text": "스팟(영어: Spot)은 보스턴 다이내믹스의 4족 보행 로봇이다.\n\n\n== 제원 ==\n\n\n== 사례 ==\n\n\n=== 대한민국 ===\n스팟은 아파트 현장과 공연장 신축현장 등에서 가설공사 현황 데이터 수집을 위해 활용되었다. 수집된 데이터는 3차원 건축정보 모델 데이터와 통합된 후, 후속 공사의 전기 설비와 각종 설비 사이의 간섭 여부를 확인하고 안전관리 계획 수립에 활용됐다.\n\n\n=== 그 외 ===\n우크라이나의 체르노빌 원전 현장에 투입되었다. 방사선량과 인체에 유해한 전자기파를 측정한 뒤, 3D 지도를 생성했다. 또한, 미국 텍사스의 여러 건설 현장에서도 활용된다. 샛기둥, 전기 도관 수 조사 등의 데이터 측정, 실제 현장을 가상 세계에 구현하는 디지털 트윈 제작, 건축정보모델(Building Information Modeling)과 실제 현장 비교를 위한 감리 등에 사용된다. 미 항공우주국(NASA)은 2020년 12월 스팟을 개조해 화성 탐사용 ‘Au-스팟'을 제작했다.\n\n\n== 외부 링크 ==\n보스턴 다이내믹스 스팟 - 공식 웹사이트\n\n\n== 같이 보기 ==\n현대자동차그룹\n보스턴 다이내믹스\n\n\n== 각주 =="
+        }
+      ],
+      "answer": "확인불가입니다. 제공된 자료에는 Spot의 250도 고온 구역 운용 인증번호가 없습니다. [근거 1–5]",
+      "queries": [
+        "Boston Dynamics Spot",
+        "Spot",
+        "스팟",
+        "Spot high-temperature operation certification"
+      ],
+      "audit": [
+        {
+          "candidate_id": "c1",
+          "title": "스팟 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "selected": true,
+          "item_document": true,
+          "index_status": "색인 확인 · 본문"
+        }
+      ]
+    },
+    {
+      "robot_id": "robot_002",
+      "question": "250도 고온 배관 구역에 투입할 수 있는지 평가해주세요.",
+      "mode": "fit",
+      "seconds": 12.98,
+      "history": [],
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "source_type": "사용자 제공 메타데이터",
+          "url": "",
+          "file": "robots_data.json",
+          "content_kind": "출처 정확성 미검증 입력 자료",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "item_document": true,
+          "file": "",
+          "source_key": "arxiv",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "robot_id": "robot_002",
+          "robot_model": "Spot",
+          "source_type": "arXiv 논문",
+          "content_kind": "초록",
+          "full_body": false,
+          "text": "icult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capable of over 5.2ms locomotion, more than triple Spots default controller maximum speed, robustness to slippery surfaces, disturbance rejection, and overall agility previously unseen on Spot. We detail our method and release our code to support future work on Spot with the low level API."
+        },
+        {
+          "robot_model": "Spot",
+          "doc_key": "75c51ca057ac0a2a4df6c08c1c09d96f7d3256958b7ba9694b8b6690db1e93f0",
+          "robot_id": "robot_002",
+          "file": "",
+          "item_document": true,
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "source_type": "arXiv 논문",
+          "content_kind": "초록",
+          "source_key": "arxiv",
+          "full_body": false,
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "doc_key": "71227eeb486684d2851d96cafe6c7b0d21261470f6c95ad0cb859bfdbfb3b377",
+          "file": "",
+          "source_key": "arxiv",
+          "item_document": true,
+          "source_type": "arXiv 논문",
+          "url": "http://arxiv.org/abs/2508.16504v1",
+          "title": "Terrain Classification for the Spot Quadrupedal Mobile Robot Using Only Proprioceptive Sensing",
+          "full_body": false,
+          "robot_id": "robot_002",
+          "robot_model": "Spot",
+          "content_kind": "초록",
+          "text": "Quadrupedal mobile robots can traverse a wider range of terrain types than their wheeled counterparts but do not perform the same on all terrain types. These robots are prone to undesirable behaviours like sinking and slipping on challenging terrains. To combat this issue, we propose a terrain classifier that provides information on terrain type that can be used in robotic systems to create a traversability map to plan safer paths for the robot to navigate. The work presented here is a terrain classifier developed for a Boston Dynamics Spot robot. Spot provides over 100 measured proprioceptive signals describing the motions of the robot and its four legs (e.g., foot penetration, forces, joint angles, etc.). The developed terrain classifier combines dimensionality reduction techniques to extract relevant information from the signals and then applies a classification technique to differentiate terrain based on traversability. In representative field testing, the resulting terrain classif"
+        },
+        {
+          "source_key": "arxiv",
+          "robot_id": "robot_002",
+          "title": "Autonomous Spot: Long-Range Autonomous Exploration of Extreme Environments with Legged Locomotion",
+          "content_kind": "초록",
+          "file": "",
+          "url": "http://arxiv.org/abs/2010.09259v3",
+          "source_type": "arXiv 논문",
+          "doc_key": "827694b5b0749fdad5d926c3b793ab2054fd550cd8e4ebacdb84c60692e9b580",
+          "full_body": false,
+          "item_document": true,
+          "robot_model": "Spot",
+          "text": "This paper serves as one of the first efforts to enable large-scale and long-duration autonomy using the Boston Dynamics Spot robot. Motivated by exploring extreme environments, particularly those involved in the DARPA Subterranean Challenge, this paper pushes the boundaries of the state-of-practice in enabling legged robotic systems to accomplish real-world complex missions in relevant scenarios. In particular, we discuss the behaviors and capabilities which emerge from the integration of the autonomy architecture NeBula (Networked Belief-aware Perceptual Autonomy) with next-generation mobility systems. We will discuss the hardware and software challenges, and solutions in mobility, perception, autonomy, and very briefly, wireless networking, as well as lessons learned and future directions. We demonstrate the performance of the proposed solutions on physical systems in real-world scenarios."
+        },
+        {
+          "robot_id": "robot_002",
+          "file": "",
+          "robot_model": "Spot",
+          "title": "Towards Autonomous Bricklaying Using Boston Dynamics Spot",
+          "source_type": "arXiv 논문",
+          "item_document": true,
+          "source_key": "arxiv",
+          "full_body": false,
+          "doc_key": "bdad2e260a1dcfa6894bbf69d397f83120976ffb7505ce3a171f351f80585006",
+          "url": "http://arxiv.org/abs/2610.27472v1",
+          "content_kind": "초록",
+          "text": "Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly for robotic execution. We evaluate placement accuracy through ten repeated assemblies of a curved four-layer wall comprising 14 wooden bricks. Results show mean translation errors below 10 mm and mean yaw errors below 1.5 degrees, while the overall RMSE across all runs is 27.72 mm (translation) and 2.06 degrees (rotation). The system was also tested outdoors with stairs between the two areas. The w"
+        }
+      ],
+      "answer": "## 종합 판정: **확인불가 — 현재 자료만으로는 250°C 구역 투입 적합성을 확인할 수 없습니다.**\n\n- 제공된 Spot 정보에는 IP54 표기가 있지만, 이는 사용자 제공·출처 미검증 자료이며 **250°C 고온에서의 운용 가능성을 입증하지 않습니다.** IP 등급만으로 온도 내성이나 고온 노출 허용 시간을 판단할 수도 없습니다. [근거 1]\n- 논문 초록에는 보행·자율탐사 등의 연구가 언급되지만, Spot의 250°C 운용 한계나 고온 내구성을 확인해 주지는 않습니다. “극한 환경” 탐사 논문도 초록에 250°C 조건이나 허용 온도가 제시되어 있지 않습니다. [근거 2][근거 5]\n\n따라서 **제조사가 확인한 주변·표면 온도 한계와 허용 노출 시간, 배관과 로봇 사이의 거리·복사열 조건, 차열 대책, 센서·배터리·페이로드의 온도 한계**를 확인하기 전에는 투입 가능하다고 판단할 근거가 없습니다. 이 답변은 안전한 현장 투입을 보증하지 않습니다.",
+      "queries": [
+        "Boston Dynamics Spot",
+        "Spot",
+        "스팟",
+        "Spot high-temperature operating limits"
+      ],
+      "audit": [
+        {
+          "candidate_id": "c1",
+          "title": "스팟 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "selected": true,
+          "item_document": true,
+          "index_status": "색인 확인 · 본문"
+        }
+      ]
+    }
+  ],
+  "search_comparison": [
+    {
+      "search_type": "similarity",
+      "top_k": 2,
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "url": "",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "title": "Towards Autonomous Bricklaying Using Boston Dynamics Spot",
+          "url": "http://arxiv.org/abs/2610.27472v1",
+          "text": "Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly for robotic execution. We evaluate placement accuracy through ten repeated assemblies of a curved four-layer wall comprising 14 wooden bricks. Results show mean translation errors below 10 mm and mean yaw errors below 1.5 degrees, while the overall RMSE across all runs is 27.72 mm (translation) and 2.06 degrees (rotation). The system was also tested outdoors with stairs between the two areas. The w"
+        }
+      ]
+    },
+    {
+      "search_type": "similarity",
+      "top_k": 5,
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "url": "",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "title": "Towards Autonomous Bricklaying Using Boston Dynamics Spot",
+          "url": "http://arxiv.org/abs/2610.27472v1",
+          "text": "Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly for robotic execution. We evaluate placement accuracy through ten repeated assemblies of a curved four-layer wall comprising 14 wooden bricks. Results show mean translation errors below 10 mm and mean yaw errors below 1.5 degrees, while the overall RMSE across all runs is 27.72 mm (translation) and 2.06 degrees (rotation). The system was also tested outdoors with stairs between the two areas. The w"
+        },
+        {
+          "title": "Terrain Classification for the Spot Quadrupedal Mobile Robot Using Only Proprioceptive Sensing",
+          "url": "http://arxiv.org/abs/2508.16504v1",
+          "text": "Quadrupedal mobile robots can traverse a wider range of terrain types than their wheeled counterparts but do not perform the same on all terrain types. These robots are prone to undesirable behaviours like sinking and slipping on challenging terrains. To combat this issue, we propose a terrain classifier that provides information on terrain type that can be used in robotic systems to create a traversability map to plan safer paths for the robot to navigate. The work presented here is a terrain classifier developed for a Boston Dynamics Spot robot. Spot provides over 100 measured proprioceptive signals describing the motions of the robot and its four legs (e.g., foot penetration, forces, joint angles, etc.). The developed terrain classifier combines dimensionality reduction techniques to extract relevant information from the signals and then applies a classification technique to differentiate terrain based on traversability. In representative field testing, the resulting terrain classif"
+        },
+        {
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "text": "icult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capable of over 5.2ms locomotion, more than triple Spots default controller maximum speed, robustness to slippery surfaces, disturbance rejection, and overall agility previously unseen on Spot. We detail our method and release our code to support future work on Spot with the low level API."
+        },
+        {
+          "title": "보행 로봇",
+          "url": "https://ko.wikipedia.org/wiki/%EB%B3%B4%ED%96%89_%EB%A1%9C%EB%B4%87",
+          "text": "터 히로세-요네다 연구소에서 개발한 TITAN 시리즈\n2005년 보스턴 다이내믹스, 미국 항공 우주국 제트 추진 연구소, 하버드 대학교 콩코드 필드 스테이션이 개발한 동적으로 안정적인 BigDog\nBigDog의 후속 모델인 Legged Squad Support System (LS3)\n보스턴 다이내믹스의 Spot\n위슈커지의 ANYmal 및 ANYmal X(방폭 버전)\nMIT의 새로운 백플립이 가능한 미니 치타 로봇\n위슈커지의 Aliengo\nStanford Pupper\n8DOF 및 12DOF를 갖춘 Open Dynamic Robot Initiative 로봇\n움직이는 척추를 가진 Bobcat 로봇\n바이오로보틱스 연구소의 Cheetah-Cub 로봇\n바이오로보틱스 연구소의 Oncilla 로봇(오픈 소스)\n다이내믹 로코모션 그룹의 Morti 로봇\nMAB Robotics의 Honey Badger\n\n\n=== 6족 ===\n6족 보행 로봇 혹은 헥사포드는 2족이나 4족 보행 로봇보다 더 큰 안정성을 확보하려는 욕구에서 시작되었다. 최종 설계는 종종 곤충의 역학을 모방하며, 걸음걸이 역시 유사하게 분류될 수 있다.\n\n파동 걸음(Wave gait): 가장 느린 걸음걸이로, 다리 쌍이 뒤에서 앞으로 \"파동\"처럼 움직인다.\n삼각대 걸음(Tripod gait): 약간 더 빠른 걸음걸이로, 세 다리가 동시에 움직인다. 나머지 세 다리는 로봇을 위한 안정적인 삼각대를 형성한다.\n6족 보행 로봇의 예는 다음과 같다.\n\n독일의 FZI Forschungszentrum Informatik에서 개발 중인 생체 모방 6족 로봇 LAURON\n1980년대 Odetics에서 개발한 375파운드 무게의 헥사포드 Odex. 각 다리를 제어하는 온보드 컴퓨터로 유명했다.\n1980년대 MIT에서 로드니 브룩스가 개발한 초기 자율 6족 로봇 중 하나인 Genghis.\n현대적인 장난감 시리즈 Hexbug\n\n\n=== 8족 ===\n8족 보행 로봇은 거미 및 기타 거미류, 그리고 일부 수중 보행 생물에서 영감을 받았다. "
+        }
+      ]
+    },
+    {
+      "search_type": "mmr",
+      "top_k": 2,
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "url": "",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "title": "스팟 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "text": "스팟(영어: Spot)은 보스턴 다이내믹스의 4족 보행 로봇이다.\n\n\n== 제원 ==\n\n\n== 사례 ==\n\n\n=== 대한민국 ===\n스팟은 아파트 현장과 공연장 신축현장 등에서 가설공사 현황 데이터 수집을 위해 활용되었다. 수집된 데이터는 3차원 건축정보 모델 데이터와 통합된 후, 후속 공사의 전기 설비와 각종 설비 사이의 간섭 여부를 확인하고 안전관리 계획 수립에 활용됐다.\n\n\n=== 그 외 ===\n우크라이나의 체르노빌 원전 현장에 투입되었다. 방사선량과 인체에 유해한 전자기파를 측정한 뒤, 3D 지도를 생성했다. 또한, 미국 텍사스의 여러 건설 현장에서도 활용된다. 샛기둥, 전기 도관 수 조사 등의 데이터 측정, 실제 현장을 가상 세계에 구현하는 디지털 트윈 제작, 건축정보모델(Building Information Modeling)과 실제 현장 비교를 위한 감리 등에 사용된다. 미 항공우주국(NASA)은 2020년 12월 스팟을 개조해 화성 탐사용 ‘Au-스팟'을 제작했다.\n\n\n== 외부 링크 ==\n보스턴 다이내믹스 스팟 - 공식 웹사이트\n\n\n== 같이 보기 ==\n현대자동차그룹\n보스턴 다이내믹스\n\n\n== 각주 =="
+        }
+      ]
+    },
+    {
+      "search_type": "mmr",
+      "top_k": 5,
+      "sources": [
+        {
+          "title": "Spot 기본 정보",
+          "url": "",
+          "text": "robot_id: robot_002\nmodel_name: Spot\nmanufacturer: Boston Dynamics\ncategory: 4족 보행 로봇\npurpose: 산업 현장 순찰 및 위험 지역 자율 탐사\nsensors: 360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR\nspecifications: 체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분\ndescription: 다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+        },
+        {
+          "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+          "url": "http://arxiv.org/abs/2504.17857v3",
+          "text": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capabl"
+        },
+        {
+          "title": "Towards Autonomous Bricklaying Using Boston Dynamics Spot",
+          "url": "http://arxiv.org/abs/2610.27472v1",
+          "text": "Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly for robotic execution. We evaluate placement accuracy through ten repeated assemblies of a curved four-layer wall comprising 14 wooden bricks. Results show mean translation errors below 10 mm and mean yaw errors below 1.5 degrees, while the overall RMSE across all runs is 27.72 mm (translation) and 2.06 degrees (rotation). The system was also tested outdoors with stairs between the two areas. The w"
+        },
+        {
+          "title": "Terrain Classification for the Spot Quadrupedal Mobile Robot Using Only Proprioceptive Sensing",
+          "url": "http://arxiv.org/abs/2508.16504v1",
+          "text": "Quadrupedal mobile robots can traverse a wider range of terrain types than their wheeled counterparts but do not perform the same on all terrain types. These robots are prone to undesirable behaviours like sinking and slipping on challenging terrains. To combat this issue, we propose a terrain classifier that provides information on terrain type that can be used in robotic systems to create a traversability map to plan safer paths for the robot to navigate. The work presented here is a terrain classifier developed for a Boston Dynamics Spot robot. Spot provides over 100 measured proprioceptive signals describing the motions of the robot and its four legs (e.g., foot penetration, forces, joint angles, etc.). The developed terrain classifier combines dimensionality reduction techniques to extract relevant information from the signals and then applies a classification technique to differentiate terrain based on traversability. In representative field testing, the resulting terrain classif"
+        },
+        {
+          "title": "스팟 (로봇)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%9F_(%EB%A1%9C%EB%B4%87)",
+          "text": "스팟(영어: Spot)은 보스턴 다이내믹스의 4족 보행 로봇이다.\n\n\n== 제원 ==\n\n\n== 사례 ==\n\n\n=== 대한민국 ===\n스팟은 아파트 현장과 공연장 신축현장 등에서 가설공사 현황 데이터 수집을 위해 활용되었다. 수집된 데이터는 3차원 건축정보 모델 데이터와 통합된 후, 후속 공사의 전기 설비와 각종 설비 사이의 간섭 여부를 확인하고 안전관리 계획 수립에 활용됐다.\n\n\n=== 그 외 ===\n우크라이나의 체르노빌 원전 현장에 투입되었다. 방사선량과 인체에 유해한 전자기파를 측정한 뒤, 3D 지도를 생성했다. 또한, 미국 텍사스의 여러 건설 현장에서도 활용된다. 샛기둥, 전기 도관 수 조사 등의 데이터 측정, 실제 현장을 가상 세계에 구현하는 디지털 트윈 제작, 건축정보모델(Building Information Modeling)과 실제 현장 비교를 위한 감리 등에 사용된다. 미 항공우주국(NASA)은 2020년 12월 스팟을 개조해 화성 탐사용 ‘Au-스팟'을 제작했다.\n\n\n== 외부 링크 ==\n보스턴 다이내믹스 스팟 - 공식 웹사이트\n\n\n== 같이 보기 ==\n현대자동차그룹\n보스턴 다이내믹스\n\n\n== 각주 =="
+        },
+        {
+          "title": "보행 로봇",
+          "url": "https://ko.wikipedia.org/wiki/%EB%B3%B4%ED%96%89_%EB%A1%9C%EB%B4%87",
+          "text": "보행 로봇(legged robot)은 이동 로봇의 일종으로, 다리 메커니즘과 같은 관절이 있는 다리를 사용하여 이동하는 로봇을 말한다. 이들은 바퀴형 로봇보다 범용성이 뛰어나 다양한 지형을 주파할 수 있지만, 이러한 장점은 복잡성과 전력 소비의 증가를 동반한다. 보행 로봇은 생체 모방의 사례로, 인간이나 곤충과 같은 보행 동물을 모방하는 경우가 많다.\n\n\n== 걸음걸이와 지지 패턴 ==\n보행 로봇 혹은 보행 기계는 험지에서의 이동을 위해 설계되었으며, 균형을 유지하기 위한 다리 액추에이터 제어, 발 위치를 결정하는 센서, 그리고 이동 방향과 속도를 결정하는 계획 알고리즘이 필요하다. 보행 로봇의 다리가 지면과 주기적으로 접촉하는 것을 로봇의 걸음걸이라고 한다.\n이동을 지속하기 위해 보행 로봇의 무게 중심은 정적 또는 동적 방식으로 지지되어야 한다. 정적 지지는 무게 중심이 지면과 접촉하는 다리들에 의해 형성된 지지 패턴 내에 위치하도록 함으로써 제공된다. 동적 지지는 무게 중심의 궤적을 유지하여 하나 이상의 다리에서 발생하는 힘을 통해 재배치될 수 있도록 함으로써 제공된다.\n\n\n== 유형 ==\n보행 로봇은 사용하는 다리의 수에 따라 분류할 수 있으며, 이는 가능한 걸음걸이를 결정한다. 다리가 많은 로봇일수록 안정적인 경향이 있고, 다리가 적을수록 기동성이 뛰어나다.\n\n\n=== 1족 ===\n1족 로봇 혹은 포고 스틱 로봇은 도약 운동을 사용하여 이동한다. 1980년대에 카네기 멜런 대학교는 균형 연구를 위해 1족 로봇을 개발하였다. 버클리의 SALTO 역시 또 다른 예시이다.\n\n\n=== 2족 ===\n\n2족 보행 로봇은 이족 보행 동작을 수행한다. 이들은 다음과 같은 두 가지 주요 문제에 직면한다.\n\n로봇의 균형과 관련된 안정성 제어\n로봇의 이동 능력과 관련된 동작 제어\n안정성 제어는 2족 보행 시스템에서 특히 어려운데, 정지 상태에서도 앞뒤 방향의 균형을 유지해야 하기 때문이다. 일부 로봇, 특히 장난감의 경우 발을 크게 만들어 이 문제를 해결하는데, 이는 기동"
+        }
+      ]
+    }
+  ],
+  "chunk_comparison": [
+    {
+      "robot_id": "robot_002",
+      "title": "스팟 (로봇)",
+      "1000/200": 1,
+      "500/100": 2
+    },
+    {
+      "robot_id": "robot_006",
+      "title": "아메카 (로봇)",
+      "1000/200": 2,
+      "500/100": 3
+    },
+    {
+      "robot_id": "robot_061",
+      "title": "페퍼 (로봇)",
+      "1000/200": 3,
+      "500/100": 5
+    }
+  ],
+  "graph_nodes": [
+    "__start__",
+    "retrieve",
+    "generate",
+    "__end__"
+  ],
+  "final_counts": {
+    "robot_meta_v2": 200,
+    "robot_docs_v2": 1647
+  },
+  "citation_parser_recheck": [
+    {
+      "robot_id": "robot_002",
+      "question": "이 로봇은 어떤 현장에서 활용되었나요? 근거에서 확인한 사례만 알려주세요.",
+      "citations": 5,
+      "valid": true
+    },
+    {
+      "robot_id": "robot_006",
+      "question": "이 로봇의 개발사와 활용 목적을 알려주세요.",
+      "citations": 1,
+      "valid": true
+    },
+    {
+      "robot_id": "robot_002",
+      "question": "이 로봇의 250도 고온 구역 운용 인증번호를 알려주세요. 자료에 없으면 확인불가라고 답하세요.",
+      "citations": 5,
+      "valid": true
+    },
+    {
+      "robot_id": "robot_002",
+      "question": "250도 고온 배관 구역에 투입할 수 있는지 평가해주세요.",
+      "citations": 3,
+      "valid": true
+    }
+  ],
+  "citation_parser_note": "원래 실행의 답변 3 인용 수는 범위형 표기 미지원으로 0. 답변 원문은 유지하고 수정 파서로 다시 검사한 결과를 citation_parser_recheck에 기록."
+}

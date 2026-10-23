@@ -1,0 +1,2002 @@
+[
+  {
+    "robot_id": "robot_001",
+    "model_name": "Atlas",
+    "manufacturer": "Boston Dynamics",
+    "category": "휴머노이드 로봇",
+    "purpose": "험지 주파 및 동역학 제어 연구",
+    "sensors": "LiDAR, 다각도 RGB-D 카메라, IMU, 관절 토크 센서",
+    "specifications": "신장 150cm, 체중 89kg, 28개 유압/전기 관절, 최대 속도 2.5m/s",
+    "description": "보스턴 다이내믹스의 대표 휴머노이드 로봇으로 백플립, 장애물 극복, 실시간 균형 제어 성능이 뛰어납니다."
+  },
+  {
+    "robot_id": "robot_002",
+    "model_name": "Spot",
+    "manufacturer": "Boston Dynamics",
+    "category": "4족 보행 로봇",
+    "purpose": "산업 현장 순찰 및 위험 지역 자율 탐사",
+    "sensors": "360도 스테레오 카메라, IMU, 페이로드 장착용 LiDAR",
+    "specifications": "체중 32kg, 최대 탑재량 14kg, 방수방진 IP54, 운용시간 90분",
+    "description": "다양한 페이로드를 탑재하여 건설 현장, 발전소 등 위험 구역을 자율 순찰하는 4족 보행 로봇입니다."
+  },
+  {
+    "robot_id": "robot_003",
+    "model_name": "Optimus Gen 2",
+    "manufacturer": "Tesla",
+    "category": "휴머노이드 로봇",
+    "purpose": "범용 공장 작업 및 가사 지원",
+    "sensors": "비전 전용 카메라, 11자유도 손가락 촉각 센서, 관절 힘 센서",
+    "specifications": "신장 173cm, 체중 57kg, 보행 속도 30% 향상, 액추에이터 자제 설계",
+    "description": "테슬라의 자율주행 신경망 기술을 이식받아 범용 물체 조작 및 공장 투입을 목표로 개발 중인 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_004",
+    "model_name": "Figure 01",
+    "manufacturer": "Figure AI",
+    "category": "휴머노이드 로봇",
+    "purpose": "물류 창고 포장 및 제조 공정 자동화",
+    "sensors": "Head-mounted RGB 카메라, 촉각 어레이, 관절 센서",
+    "specifications": "신장 170cm, 체중 60kg, 페이로드 20kg, 운용시간 5시간",
+    "description": "OpenAI와의 협업으로 자연어 대화 및 종단간(End-to-End) 신경망 기반 자율 작업이 가능한 범용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_005",
+    "model_name": "Digit v4",
+    "manufacturer": "Agility Robotics",
+    "category": "휴머노이드 로봇",
+    "purpose": "물류 상하차 및 물품 이송",
+    "sensors": "LiDAR, 깊이 카메라, 관절 토크 센서",
+    "specifications": "신장 175cm, 체중 65kg, 가반하중 16kg, 접이식 관절 구조",
+    "description": "물류 창고에 특화된 역관절 형태의 휴머노이드로 상자 옮기기 및 선반 적재 작업을 수행합니다."
+  },
+  {
+    "robot_id": "robot_006",
+    "model_name": "Ameca",
+    "manufacturer": "Engineered Arts",
+    "category": "서비스 휴머노이드",
+    "purpose": "인간-로봇 상호작용(HRI) 연구 및 전시 안내",
+    "sensors": "눈 부위 RGB 카메라, 마이크 어레이, 얼굴 인식 센서",
+    "specifications": "상반신 관절 52개, 33개 얼굴 표정 모듈, 실시간 음성 합성 연동",
+    "description": "사람과 매우 유사한 미세한 얼굴 표정 제어가 가능하여 HRI 연구에 폭넓게 활용되는 서비스 로봇입니다."
+  },
+  {
+    "robot_id": "robot_007",
+    "model_name": "CyberOne",
+    "manufacturer": "Xiaomi",
+    "category": "휴머노이드 로봇",
+    "purpose": "감정 인식 및 자율 순찰",
+    "sensors": "Mi-Sense 3D 비전 모듈, 음성 감정 인식 마이크, 공간 감지 센서",
+    "specifications": "신장 177cm, 체중 52kg, 자유도 21개, 한 손 가반하중 1.5kg",
+    "description": "샤오미가 공개한 휴머노이드로 사람의 45가지 감정을 음성으로 인식하고 3D 공간을 자율 매핑합니다."
+  },
+  {
+    "robot_id": "robot_008",
+    "model_name": "Phoenix",
+    "manufacturer": "Sanctuary AI",
+    "category": "휴머노이드 로봇",
+    "purpose": "소매점 매대 정리 및 소형 부품 조립",
+    "sensors": "고해상도 비전 카메라, 사람 수준의 손가락 촉각 센서",
+    "specifications": "신장 170cm, 체중 68kg, 최대 속도 4.8km/h, 가반하중 25kg",
+    "description": "AI 제어 시스템인 Carbon을 탑재하여 상반신의 정밀한 손동작과 소매점 자동화에 특화된 로봇입니다."
+  },
+  {
+    "robot_id": "robot_009",
+    "model_name": "Unitree H1",
+    "manufacturer": "Unitree Robotics",
+    "category": "휴머노이드 로봇",
+    "purpose": "고속 이동 연구 및 범용 작업",
+    "sensors": "3D LiDAR, 뎁스 카메라, 유니트리 고성능 관절 모터",
+    "specifications": "신장 180cm, 체중 47kg, 이동속도 3.3m/s(최대 5m/s), 관절 토크 360Nm",
+    "description": "세계에서 가장 빠른 보행 속도를 목표로 개발된 고성능 관절 모터 기반의 보행 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_010",
+    "model_name": "Unitree Go2",
+    "manufacturer": "Unitree Robotics",
+    "category": "4족 보행 로봇",
+    "purpose": "개인용 조깅 동행, 야외 탐사, 교육용",
+    "sensors": "초광각 4D 4D-LiDAR, 초음파 센서, 풋 페달 스위치",
+    "specifications": "체중 15kg, 최대 속도 5m/s, 배터리 1~2시간, 내장 GPT 연동 지원",
+    "description": "자체 개발 4D LiDAR를 탑재하여 장애물 회피 능력이 뛰어나며 개인용 스마트 펫 로봇으로 각광받고 있습니다."
+  },
+  {
+    "robot_id": "robot_011",
+    "model_name": "ANYmal X",
+    "manufacturer": "ANYbotics",
+    "category": "4족 보행 로봇",
+    "purpose": "방폭 구역 석유화학 플랜트 자율 검사",
+    "sensors": "열화상 카메라, 방폭 인증 센서 패키지, LiDAR, 오디오 분석기",
+    "specifications": "체중 50kg, IECEx 방폭 인증, IP67 등급, 계단 및 장애물 등반",
+    "description": "가스 누출이나 폭발 위험이 있는 방폭 인증 구역을 안전하게 자율 순찰하는 4족 로봇입니다."
+  },
+  {
+    "robot_id": "robot_012",
+    "model_name": "Kengoro",
+    "manufacturer": "University of Tokyo",
+    "category": "연구용 휴머노이드",
+    "purpose": "인체 해부학 구조 모방 및 유연한 바이오 로보틱스 연구",
+    "sensors": "근육 실전류 센서, 관절 위치 센서, 땀 배출 열감지 센서",
+    "specifications": "신장 167cm, 체중 56.5kg, 116자유도, 다공성 금속 프레임 땀 수냉 시스템",
+    "description": "인간의 골격과 근육 구조를 다자유도 모터로 완벽히 모방하였으며, 프레임에 땀을 흘려 모터를 식히는 연구용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_013",
+    "model_name": "HUBO+ (KHR-3C)",
+    "manufacturer": "KAIST / Rainbow Robotics",
+    "category": "휴머노이드 로봇",
+    "purpose": "재난 구조 및 구형 보행 연구",
+    "sensors": "3D 비전 센서, 발바닥 FT(힘/토크) 센서, IMU",
+    "specifications": "신장 170cm, 체중 80kg, 변신형 무릎 바퀴 구조, DARPA 재난로봇 대회 우승",
+    "description": "DARPA Robotics Challenge 우승 경력이 있는 한국의 대표 재난 구조 휴머노이드 로봇입니다."
+  },
+  {
+    "robot_id": "robot_014",
+    "model_name": "Eve",
+    "manufacturer": "1X Technologies",
+    "category": "바퀴형 휴머노이드",
+    "purpose": "경비 순찰 및 물류 피킹",
+    "sensors": "VR 카메라 헤드, 힘 감지 핑거, 소음 측정 마이크",
+    "specifications": "신장 175cm, 체중 86kg, 이동속도 12km/h, 가반하중 15kg",
+    "description": "하체에 바퀴를 달아 빠른 순찰 이동이 가능하며, 양손으로 경비 및 가벼운 물품 다루기가 가능한 로봇입니다."
+  },
+  {
+    "robot_id": "robot_015",
+    "model_name": "Walker S",
+    "manufacturer": "UBTECH",
+    "category": "산업용 휴머노이드",
+    "purpose": "자동차 제조 공정 품질 검사 및 조립",
+    "sensors": "3D 비전 스캐너, 6축 힘/토크 센서, 무릎 유연 관절 센서",
+    "specifications": "신장 145cm, 체중 63kg, 41개 관절 자유도, 실시간 시각 탐지 시스템",
+    "description": "니오(NIO) 전기차 생산 라인에 투입되어 도어 잠금 장치 검사 및 타이어 조립 등을 보조하는 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_016",
+    "model_name": "UR5e",
+    "manufacturer": "Universal Robots",
+    "category": "협동로봇",
+    "purpose": "정밀 픽앤플레이스, 패키징, 나사 조임",
+    "sensors": "내장 6축 힘/토크 센서, 관절 안전 제어 센서",
+    "specifications": "가반하중 5kg, 작업 반경 850mm, 반복 정밀도 ±0.03mm, 무게 20.6kg",
+    "description": "협동로봇 업계의 표준으로 꼽히는 제품으로, 사람 옆에서 안전하게 수작업을 보조합니다."
+  },
+  {
+    "robot_id": "robot_017",
+    "model_name": "UR10e",
+    "manufacturer": "Universal Robots",
+    "category": "협동로봇",
+    "purpose": "팔레타이징, 머신 텐딩, 대형 부품 가공",
+    "sensors": "내장 힘/토크 센서, 안전 정지 감지 센서",
+    "specifications": "가반하중 12.5kg, 작업 반경 1300mm, 반복 정밀도 ±0.05mm",
+    "description": "긴 작업 반경을 제공하여 팔레트에 상자를 쌓거나 수직 가공기계에 소재를 넣는 머신 텐딩에 적합합니다."
+  },
+  {
+    "robot_id": "robot_018",
+    "model_name": "RB5-850",
+    "manufacturer": "Rainbow Robotics",
+    "category": "협동로봇",
+    "purpose": "F&B 바리스타, 치킨 조리, 제조 조립",
+    "sensors": "관절 토크 센서, 3D 비전 연동 모듈",
+    "specifications": "가반하중 5kg, 작업 반경 850mm, 6축 관절, IP66 방수 방진 옵션",
+    "description": "국내 레인보우로보틱스 제조 협업로봇으로 카페 F&B 및 공장 자동화 라인에 널리 도입되어 있습니다."
+  },
+  {
+    "robot_id": "robot_019",
+    "model_name": "M1013",
+    "manufacturer": "Doosan Robotics",
+    "category": "협동로봇",
+    "purpose": "자동차 부품 용접, 머신텐딩, 검사",
+    "sensors": "6개 관절마다 조립된 고성능 토크센서",
+    "specifications": "가반하중 10kg, 작업 반경 1300mm, 최고 수준 충돌 감지 감도",
+    "description": "모든 관절에 정밀 토크센서가 장착되어 미세한 외력도 즉각 감지해 멈추는 최고 수준의 안전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_020",
+    "model_name": "CR-35iA",
+    "manufacturer": "FANUC",
+    "category": "대형 협동로봇",
+    "purpose": "중량물 이송 및 자동차 시트 조립",
+    "sensors": "고무 부드러운 커버 촉각 센서, 3D 로봇 비전",
+    "specifications": "가반하중 35kg, 작업 반경 1813mm, ISO 10218-1 안전 인증",
+    "description": "녹색 고무 피부 커버를 적용하여 사람과 충돌 시 충격을 완화하며 높은 가반하중을 제공합니다."
+  },
+  {
+    "robot_id": "robot_021",
+    "model_name": "IRB 1100",
+    "manufacturer": "ABB",
+    "category": "소형 산업용 로봇팔",
+    "purpose": "전자제품 소형 부품 조립 및 정밀 솔더링",
+    "sensors": "포스 제어 센서, ABB SafeMove 모니터링",
+    "specifications": "가반하중 4kg, 작업 반경 580mm, 반복 정밀도 ±0.01mm",
+    "description": "풋프린트가 매우 작고 속도가 빨라 반도체/전자 산업 기판 조립라인에 선호되는 수직 다관절 로봇입니다."
+  },
+  {
+    "robot_id": "robot_022",
+    "model_name": "IRB 6700",
+    "manufacturer": "ABB",
+    "category": "대형 산업용 로봇팔",
+    "purpose": "자동차 차체 용접, 스팟 용접, 자재 운반",
+    "sensors": "LeanID 케이블 가이딩 센서, 고정밀 엔코더",
+    "specifications": "가반하중 150~300kg, 작업 반경 2.6~3.2m, 평균 고장 간격 400,000시간",
+    "description": "내구성이 극대화된 자동차 공장의 주력 중량물 용접 및 이송용 수직 다관절 로봇입니다."
+  },
+  {
+    "robot_id": "robot_023",
+    "model_name": "KR QUANTEC",
+    "manufacturer": "KUKA",
+    "category": "산업용 로봇팔",
+    "purpose": "주조, 파운드리, 대형 구조물 가공 및 용접",
+    "sensors": "KUKA SafeOperation 모듈, 3D 레이저 스캐너 연동",
+    "specifications": "가반하중 120~300kg, 작업 반경 2700~3100mm, Foundry 특수 방열 옵션",
+    "description": "고온 및 악조건 환경의 주조 공장이나 대형 가공 라인에 투입되는 주황색 강철 로봇팔입니다."
+  },
+  {
+    "robot_id": "robot_024",
+    "model_name": "LBR iiwa 14 R820",
+    "manufacturer": "KUKA",
+    "category": "지능형 협동로봇",
+    "purpose": "의료기기 정밀 조립, 윤곽 트래킹, 힘 제어 작업",
+    "sensors": "7개 관절 전축 힘/토크 센서 내장",
+    "specifications": "7자유도, 가반하중 14kg, 작업 반경 820mm, 사람 팔 모양 동작 모방",
+    "description": "7개 관절 축에 토크 센서가 있어 인간 손재주에 가까운 미세 센서 기반 힘 조절 작업을 해냅니다."
+  },
+  {
+    "robot_id": "robot_025",
+    "model_name": "MOTOMAN-AR1440",
+    "manufacturer": "Yaskawa Electric",
+    "category": "아크 용접 로봇",
+    "purpose": "금속 파이프 및 구조물 고속 아크 용접",
+    "sensors": "아크 시옴 추적 센서, 용접 갭 감지 비전",
+    "specifications": "가반하중 12kg, 작업 반경 1440mm, 중공 아웃 어시스트 토치 통과 구조",
+    "description": "토치 케이블을 팔 내부로 통과시켜 干涉을 줄이고 고속 정밀 아크 용접을 구현합니다."
+  },
+  {
+    "robot_id": "robot_026",
+    "model_name": "CoLlink RS5",
+    "manufacturer": "Neuromeka",
+    "category": "협동로봇",
+    "purpose": "소형 제조 및 F&B 주방 자동화",
+    "sensors": "스마트 스마트 액추에이터 통합 토크 알고리즘",
+    "specifications": "가반하중 5kg, 작업 반경 850mm, 자가 시뮬레이션 인디 엔진 적용",
+    "description": "뉴로메카의 딥러닝 비전 연동 협동로봇 Indy 시리즈의 핵심 라인업입니다."
+  },
+  {
+    "robot_id": "robot_027",
+    "model_name": "TM5-900",
+    "manufacturer": "Techman Robot",
+    "category": "비전 통합형 협동로봇",
+    "purpose": "PCB 비전 검사, QR코드 스캔, 바코드 이송",
+    "sensors": "로봇 플랜지 끝단 내장형 500만 화소 2D/3D 비전 센서",
+    "specifications": "가반하중 5kg, 작업 반경 900mm, 비전 소프트웨어 기본 내장",
+    "description": "로봇 손목에 카메라 비전 시스템이 내장되어 있어 별도 외장 비전 설치 없이 바로 픽앤플레이스가 가능합니다."
+  },
+  {
+    "robot_id": "robot_028",
+    "model_name": "iX4 800H",
+    "manufacturer": "Omron Adept",
+    "category": "델타 로봇 (Parallel Robot)",
+    "purpose": "식품/제약 고속 컨베이어 정렬 및 초고속 포장",
+    "sensors": "컨베이어 트래킹 카메라, 컬러 판별 비전",
+    "specifications": "가반하중 15kg, 작업 영역 800mm, 분당 최고 170회 픽킹",
+    "description": "천장에 달려 거미처럼 빠른 속도로 컨베이어 벨트 위의 과자나 약품을 선별 수거하는 병렬 델타 로봇입니다."
+  },
+  {
+    "robot_id": "robot_029",
+    "model_name": "T3-401S",
+    "manufacturer": "Epson Robotics",
+    "category": "스카라 로봇 (SCARA)",
+    "purpose": "소형 나사 체결, 기판 평면 픽앤플레이스",
+    "sensors": "스마트 모션 컨트롤러 센서, 비전 가이드",
+    "specifications": "가반하중 3kg, 암 길이 400mm, 컨트롤러 내장형 일체형 구조",
+    "description": "컨트롤러가 로봇 베이스에 포함되어 배선이 깔끔하며 소형 전자제품 조립에 매우 유용합니다."
+  },
+  {
+    "robot_id": "robot_030",
+    "model_name": "Scara LS6-B",
+    "manufacturer": "Epson Robotics",
+    "category": "스카라 로봇",
+    "purpose": "고속 이송, 부품 정렬, 디스펜싱",
+    "sensors": "Epson Vision Guide 센서, 엔코더",
+    "specifications": "가반하중 6kg, 암 길이 600mm, 사이클 타임 0.38초",
+    "description": "뛰어난 가성비와 빠르게 수평 다관절 이동을 수행하는 평면 작업 전문 로봇입니다."
+  },
+  {
+    "robot_id": "robot_031",
+    "model_name": "CRX-10iA",
+    "manufacturer": "FANUC",
+    "category": "경량 협동로봇",
+    "purpose": "팔레트 적재, 디버링, 교육용",
+    "sensors": "접촉 감지용 전류 센서, 태블릿 펜던트 모듈",
+    "specifications": "가반하중 10kg, 도달거리 1249mm, 무상 보수 8년 보장, 미니멀 하얀색 프레임",
+    "description": "화낙의 직관적 티칭 방식을 적용하여 초보자도 쉽게 직접 교시(Direct Teaching)할 수 있는 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_032",
+    "model_name": "Franka Emika Production",
+    "manufacturer": "Franka Robotics",
+    "category": "촉각 연구용 협동로봇",
+    "purpose": "연구소 민감 실험, 정밀 테스트, 케이블 꽂기",
+    "sensors": "7개 축 고정밀 힘 토크 센서 (Direct Force Control)",
+    "specifications": "7자유도, 가반하중 3kg, 작업반경 855mm, 임피던스 제어 모드 지원",
+    "description": "힘 제어가 능통하여 감자칩을 부러뜨리지 않고 쥐거나 미세한 커넥터를 꽂는 작업에 연구용으로 사용됩니다."
+  },
+  {
+    "robot_id": "robot_033",
+    "model_name": "P-ROBOT 6",
+    "manufacturer": "Hanwha Robotics",
+    "category": "협동로봇",
+    "purpose": "사출 성형품 수거 및 표면 가공",
+    "sensors": "안전 펜스 무상 관절 안전 모듈",
+    "specifications": "가반하중 6kg, 작업 반경 900mm, 자가 중량 19.5kg",
+    "description": "한화로보틱스에서 제작한 로봇으로 사출 공정 및 조립 현장에 최적화되어 있습니다."
+  },
+  {
+    "robot_id": "robot_034",
+    "model_name": "TX2-60",
+    "manufacturer": "Staubli",
+    "category": "고속 정밀 로봇팔",
+    "purpose": "클린룸 반도체 웨이퍼 이송, 바이오 제약 조제",
+    "sensors": "CS9 컨트롤러 안전 인코더, absolute encoder",
+    "specifications": "가반하중 9kg, 작업 반경 670mm, Cleanroom Class 2 (ISO 14644-1)",
+    "description": "밀폐형 밀봉 구동부 구조로 무균실이나 무경비 클린룸 환경에 적합한 로봇팔입니다."
+  },
+  {
+    "robot_id": "robot_035",
+    "model_name": "SWIFTI CRB 1100",
+    "manufacturer": "ABB",
+    "category": "산업용 기반 협동로봇",
+    "purpose": "고속 협동 포장 및 어셈블리",
+    "sensors": "SafeMove 3D 레이저 스캐너 하이브리드 연동",
+    "specifications": "최고 속도 5m/s (사람 접근 시 자동으로 협동 속도로 감속), 가반하중 4kg",
+    "description": "사람이 없을 때는 일반 산업용 로봇 속도로 빠르게 일하다가 사람이 다가오면 협동 모드로 자동 전환됩니다."
+  },
+  {
+    "robot_id": "robot_036",
+    "model_name": "MiR250",
+    "manufacturer": "Mobile Industrial Robots (MiR)",
+    "category": "물류 AMR (자율이동로봇)",
+    "purpose": "공장 내 카트 견인 및 부품 상자 자동 이송",
+    "sensors": "SICK 3D S300 레이저 스캐너 2개, 3D 카메라, 3D LiDAR",
+    "specifications": "적재 하중 250kg, 최고 속도 2.0m/s, IP21, 문 통과 폭 80cm 가능",
+    "description": "낮은 도어 높이도 통과하는 컴팩트한 디자인으로 복잡한 공장 내부를 자율주행하며 물자를 운반합니다."
+  },
+  {
+    "robot_id": "robot_037",
+    "model_name": "MiR600",
+    "manufacturer": "Mobile Industrial Robots (MiR)",
+    "category": "중량물 AMR",
+    "purpose": "Heavy-duty 팔레트 운반 및 중공업 자재 이송",
+    "sensors": "IP65 등급 방수방진 LiDAR, 3D 근접 센서, 붐퍼 센서",
+    "specifications": "적재 하중 600kg, 최고 속도 1.2m/s, 자동 충전 탑재",
+    "description": "산업용 팔레트와 먼지, 물방울이 날리는 악조건 공장에서 내구성 있게 운용되는 AMR입니다."
+  },
+  {
+    "robot_id": "robot_038",
+    "model_name": "Proteus",
+    "manufacturer": "Amazon Robotics",
+    "category": "물류 AMR",
+    "purpose": "아마존 대형 물류센터 롤케이지 자율 운반",
+    "sensors": "안전 3D LiDAR, 바닥 아치 매핑 비전, 장애물 인지 AI",
+    "specifications": "독자 자율주행 소프트웨어, 사람 근접 시 고유의 음향 신호 발산",
+    "description": "아마존 최초의 완전 자율 이동 물류 로봇으로 제한 구역 없이 사람 직원과 같은 공간에서 안전하게 동선 혼용 이동합니다."
+  },
+  {
+    "robot_id": "robot_039",
+    "model_name": "Hercules K50",
+    "manufacturer": "Geek+",
+    "category": "물류 AMR / AGV",
+    "purpose": "E-커머스 물류창고 Goods-to-Person(G2P) 선별",
+    "sensors": "QR 바닥 마크 인식 카메라, 장애물 초음파 센서",
+    "specifications": "적재 하중 1000kg, 회전 반경 0, 최대 속도 1.5m/s",
+    "description": "선반 전체를 들어 올려 작업자 앞으로 가져오는 G2P 물류 혁신의 대표적인 랙 리프팅 로봇입니다."
+  },
+  {
+    "robot_id": "robot_040",
+    "model_name": "OTTO 1500",
+    "manufacturer": "OTTO Motors",
+    "category": "중공업 AMR",
+    "purpose": "자동차 엔진 블록 및 중대형 팔레트 이송",
+    "sensors": "360도 안전 LiDAR, 오토센싱 슬램 비전",
+    "specifications": "적재 하중 1900kg, 최고 속도 2.0m/s, 강철 차체 프레임",
+    "description": "1.9톤에 달하는 엄청난 자재를 지게차 없이 자율주행으로 이송하는 거대 무인 운반차입니다."
+  },
+  {
+    "robot_id": "robot_041",
+    "model_name": "Kubo-AGV 500",
+    "manufacturer": "현대위아 (Hyundai WIA)",
+    "category": "자율주행 AGV",
+    "purpose": "전기차 배터리 팩 및 차체 부품 라인 공급",
+    "sensors": "SLAM LiDAR, 2D QR 스캐너, 초음파 및 3D 뎁스 센서",
+    "specifications": "적재 하중 500kg, 리프팅 내장, 메카넘 휠(Mecanum Wheel) 전방향 이동",
+    "description": "제자리 360도 회전 및 제자리 옆으로 이동(직교 이동)이 가능한 메카넘 휠 기반 스마트 팩토리 AGV입니다."
+  },
+  {
+    "robot_id": "robot_042",
+    "model_name": "LD-90",
+    "manufacturer": "Omron",
+    "category": "물류 AMR",
+    "purpose": "클린룸 반도체 매거진 이송 및 병원 약품 이송",
+    "sensors": "내비게이션 LiDAR, Side-Laser, 장애물 3D 센서",
+    "specifications": "적재 하중 90kg, 속도 1.4m/s, 지형지도 자동 갱신 Fleet Manager 연결",
+    "description": "동적 경로 재계산 기능이 뛰어나 장애물이 많은 환경에서 신속하게 우회로를 찾습니다."
+  },
+  {
+    "robot_id": "robot_043",
+    "model_name": "Tugger Cart AMR",
+    "manufacturer": "Seegrid",
+    "category": "무인 견인 AMR",
+    "purpose": "장거리 물류 카트 연쇄 견인 이송",
+    "sensors": "Seegrid 3D Vision GRID 기술 (카메라 기반 3D 매핑)",
+    "specifications": "견인 하중 4500kg, 3D 카메라 5대 탑재, 레이저 없이도 자율비전 매핑",
+    "description": "LiDAR 반사판 없이 오직 복합 비전 카메라로 공장 전체 3차원 공간을 학습하여 견인차를 운행합니다."
+  },
+  {
+    "robot_id": "robot_044",
+    "model_name": "Fetch Freight500",
+    "manufacturer": "Zebra Technologies (Fetch Robotics)",
+    "category": "물류 AMR",
+    "purpose": "팔레트 이동 및 무인 창고 자동화",
+    "sensors": "SICK 2D LiDAR, 3D 범퍼 카메라, 비상 정지 스위치",
+    "specifications": "가반하중 500kg, 충전 시간 1시간에 90% 충전, 24시간 가동 모드",
+    "description": "클라우드 셋업 방식으로 하루 만에 물류창고에 지도를 그리고 즉시 투입 가능한 비즈니스용 AMR입니다."
+  },
+  {
+    "robot_id": "robot_045",
+    "model_name": "Locus Origin",
+    "manufacturer": "Locus Robotics",
+    "category": "협업형 물류 AMR",
+    "purpose": "창고 피킹 자재 보조 및 다국어 디스플레이 지시",
+    "sensors": "온보드 비전 스캐너, RFID 스캐너, LiDAR",
+    "specifications": "적재 하중 36kg, 작업자 인식 태블릿 패널 탑재",
+    "description": "피킹 작업자를 따라다니며 태블릿에 피킹할 수량을 띄워주어 물류 효율성을 2배 이상 올려주는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_046",
+    "model_name": "Agilox ONE",
+    "manufacturer": "Agilox",
+    "category": "자율주행 지게차 AMR",
+    "purpose": "팔레트 무인 상하차 및 가공 공정 자동 공급",
+    "sensors": "3D LiDAR, 무선 지능형 피어투피어(P2P) 통신 모듈",
+    "specifications": "적재 하중 1000kg, 리프트 높이 1000mm, 전방향 메카넘 휠",
+    "description": "중앙 서버 없이 로봇끼리 직접 통신하여 공정을 분배하는 Swarm Intelligence(군집 지능) 기반 지게차 로봇입니다."
+  },
+  {
+    "robot_id": "robot_047",
+    "model_name": "Mevo-Flex 300",
+    "manufacturer": "TRobotz",
+    "category": "모듈형 AMR",
+    "purpose": "컨베이어 상단 결합형 자재 적재",
+    "sensors": "대각선 듀얼 LiDAR, 초음파 센서",
+    "specifications": "적재 하중 300kg, 상부 모듈 교체형(롤러, 턴테이블, 리프트)",
+    "description": "상부 상판 모듈을 상시 교체하여 롤러 컨베이어로 쓰거나 리프트로 변형할 수 있는 높은 유연성의 AMR입니다."
+  },
+  {
+    "robot_id": "robot_048",
+    "model_name": "Kiva Robot (SFA)",
+    "manufacturer": "Amazon (구 Kiva Systems)",
+    "category": "AGV 바닥형 로봇",
+    "purpose": "물류창고 랙 이송",
+    "sensors": "듀얼 카메라 (바닥 마크 및 상부 랙 플레이트 감지)",
+    "specifications": "적재 하중 450kg, 주황색 낮게 설계된 납작 차체, 회전 리프팅 판",
+    "description": "현대 물류 AGV의 시초가 된 로봇으로, 바닥에 붙은 2D 바코드를 읽으며 선반 아래로 들어가 선반을 띄워 이동합니다."
+  },
+  {
+    "robot_id": "robot_049",
+    "model_name": "Cartken Autonomous Bot",
+    "manufacturer": "Cartken",
+    "category": "실외 자율주행 배달 로봇",
+    "purpose": "캠퍼스 및 도심 음식/화물 라스트마일 배송",
+    "sensors": "6개 초광각 비전 카메라, 초음파, GPS 비상 연동",
+    "specifications": "6륜 독립 펜던트 서스펜션, 적재 공간 27리터 잠금 장치",
+    "description": "고가의 LiDAR 없이 카메라 AI 비전 위주로 도도 경계석을 넘나들며 라스트마일 배달을 수행합니다."
+  },
+  {
+    "robot_id": "robot_050",
+    "model_name": "Neolix M1",
+    "manufacturer": "Neolix",
+    "category": "무인 자율주행 차량 로봇",
+    "purpose": "도심 자율주행 모바일 매대, 택배 배송",
+    "sensors": "16채널 LiDAR 2개, 센티미터급 RTK-GPS, 3D 비전 카메라 11대",
+    "specifications": "적재 하중 500kg, 최고 속도 50km/h, 레벨4 자율주행",
+    "description": "도로 위를 자율주행하며 무인으로 아침식사를 판매하거나 택배를 전달하는 로봇 차량입니다."
+  },
+  {
+    "robot_id": "robot_051",
+    "model_name": "da Vinci Xi",
+    "manufacturer": "Intuitive Surgical",
+    "category": "복강경 수술 로봇",
+    "purpose": "비뇨기과, 이비인후과, 외과 최소 침습 수술",
+    "sensors": "3D HD 고해상도 내시경 비전, EndoWrist 7자유도 관절 센서",
+    "specifications": "4개 복강경 수술 암, 손떨림 제거 렌더링, 10배 확대 3D 시야",
+    "description": "의사가 마스터 콘솔에서 조종하여 절개 부위를 최소화하고 정밀 수술을 집도하는 세계적 대표 수술 로봇입니다."
+  },
+  {
+    "robot_id": "robot_052",
+    "model_name": "da Vinci SP",
+    "manufacturer": "Intuitive Surgical",
+    "category": "단일공 수술 로봇",
+    "purpose": "단 하나의 절개창을 통한 정밀 단일공 수술",
+    "sensors": "다관절 뱀 형태 관절 비전 센서, 3D 복합 조종 포스 센서",
+    "specifications": "2.5cm의 단일 구멍으로 3개 수술 도구와 카메라 동시 진입",
+    "description": "단 하나의 작은 절개 구멍(Single Port)으로 수술 도구가 들어가 내부에서 다관절로 펼쳐져 수술합니다."
+  },
+  {
+    "robot_id": "robot_053",
+    "model_name": "CyberKnife S7",
+    "manufacturer": "Accuray",
+    "category": "방사선 암 치료 로봇",
+    "purpose": "전신 종양 정밀 방사선 수술 및 실시간 암 추적",
+    "sensors": "Synchrony 실시간 호흡 암 추적 비전 스캐너",
+    "specifications": "KUKA 로봇팔 기반 X-band 방사선 선형 가속기 탑재, 0.5mm 이하 정확도",
+    "description": "환자가 호흡할 때 암 조직이 움직이는 동선을 로봇팔이 실시간 추적하며 방사선을 조사합니다."
+  },
+  {
+    "robot_id": "robot_054",
+    "model_name": "Mako SmartRobotics",
+    "manufacturer": "Stryker",
+    "category": "인공관절 절삭 수술 로봇",
+    "purpose": "무릎 슬관절 및 고관절 인공관절 치환술",
+    "sensors": "AccuStop 햅틱 3D CT 뼈 절삭 영역 고정 기술",
+    "specifications": "CT 3D 모델링 기반 햅틱 로봇 암, 가상 안전 가이드 영역 밖 절삭 자동 중단",
+    "description": "환자의 CT를 3D 분석하여 뼈 절삭 범위를 설정하고, 허용 범위를 넘어가면 로봇이 스스로 작동을 멈춥니다."
+  },
+  {
+    "robot_id": "robot_055",
+    "model_name": "Ion Endoluminal System",
+    "manufacturer": "Intuitive Surgical",
+    "category": "폐 생검 진단 로봇",
+    "purpose": "폐 말단 정밀 생검 및 초기 폐암 진단",
+    "sensors": "광섬유 모양 감지 센서(Shape-sensing Fiber Optics)",
+    "specifications": "3.5mm 외경의 초슬림 카테터, 180도 전 방향 관절 조종",
+    "description": "유연한 카테터 관을 폐 기도로 집어넣어 폐 깊숙한 곳의 미세 종양 조직을 정확히 채취합니다."
+  },
+  {
+    "robot_id": "robot_056",
+    "model_name": "ReWalk Personal 6.0",
+    "manufacturer": "ReWalk Robotics",
+    "category": "외골격 보행 보조 로봇 (Exoskeleton)",
+    "purpose": "하반신 마비 환자 재활 및 보행 지원",
+    "sensors": "상체 기울기 인식 센서, 발바닥 접지 감지기",
+    "specifications": "착용형 다리 브레이스, 모터 구동 무릎/고관절, 보행 속도 최대 1.6km/h",
+    "description": "척수 손상 환자가 상체를 앞으로 기울이면 무게중심 이동을 감지하여 다리를 앞으로 내딛어 줍니다."
+  },
+  {
+    "robot_id": "robot_057",
+    "model_name": "HAL (Hybrid Assistive Limb)",
+    "manufacturer": "CYBERDYNE",
+    "category": "생체 신호 착용형 로봇",
+    "purpose": "신경계 질환 재활 치료 및 근력 보강",
+    "sensors": "피부 표면 생체 신호(BES) 피부 전극 센서",
+    "specifications": "뇌가 다리로 보내는 미세한 전기 신호를 감지해 모터 즉각 동기화 구동",
+    "description": "착용자가 움직이려는 의도의 생체 전위 신호를 피부에 부착한 센서로 받아 모터를 구동시키는 혁신 재활 로봇입니다."
+  },
+  {
+    "robot_id": "robot_058",
+    "model_name": "Angelegs",
+    "manufacturer": "Angel Robotics",
+    "category": "재활 외골격 로봇",
+    "purpose": "뇌성마비 아동 및 불완전 마비 환자 보행 재활",
+    "sensors": "무저항 정밀 모터 제어 센서, 지면 반력 센서",
+    "specifications": "환자 관절 힘 수동 보조 기능, 체형 맞춤형 조정 프레임",
+    "description": "국내 엔젤로보틱스가 개발한 착용형 로봇으로 환자 본인이 내는 힘을 정밀 측정해 부족한 힘만 채워줍니다."
+  },
+  {
+    "robot_id": "robot_059",
+    "model_name": "CLOI ServeBot (수반형)",
+    "manufacturer": "LG Electronics",
+    "category": "실내 서빙/안내 로봇",
+    "purpose": "식당 음식 서빙, 호텔 용품 전달, 병원 물품 이송",
+    "sensors": "3D 카메라, LiDAR, 하부 낙하 방지 센서",
+    "specifications": "3개 선반 적재공간(최대 30kg), 10.1인치 디스플레이, 자율 선반 감지",
+    "description": "국내 식당 및 호텔에 널리 보급된 서빙 로봇으로 국물이 쏟아지지 않는 슬로 스타트 기술이 적용되어 있습니다."
+  },
+  {
+    "robot_id": "robot_060",
+    "model_name": "CLOI GuideBot",
+    "manufacturer": "LG Electronics",
+    "category": "대형 전시 안내 로봇",
+    "purpose": "공항, 박물관, 대형 쇼핑몰 안내 및 광고 표출",
+    "sensors": "전후면 27인치 사이니지 터치스크린, 초음파, 3D LiDAR",
+    "specifications": "자율 이동 안내, 동선 에스코트, 심야 시간대 보안 순찰 모드",
+    "description": "인천공항 등에서 길 안내, 기념사진 촬영, 시설 에스코트 서비스를 제공하는 대형 안내 로봇입니다."
+  },
+  {
+    "robot_id": "robot_061",
+    "model_name": "Pepper",
+    "manufacturer": "SoftBank Robotics",
+    "category": "감정 인식 감성 서비스 로봇",
+    "purpose": "매장 고객 맞이, 이벤트 레크리에이션, 노약자 말벗",
+    "sensors": "가슴 10.1인치 태블릿, 3D 비전, 마이크 4개 어레이, 입체 스피커",
+    "specifications": "신장 120cm, 체중 28kg, 바퀴형 3축 하체 이동, 음성 톤 감정 분석",
+    "description": "사람의 표정과 음성 억양을 분석하여 그에 맞는 반응을 해주는 원조 상업용 감정 인식 로봇입니다."
+  },
+  {
+    "robot_id": "robot_062",
+    "model_name": "Temi",
+    "manufacturer": "Robotemi",
+    "category": "스마트 홈/오피스 로봇",
+    "purpose": "원격 의료 화상 통화, 자율주행 스피커, 시설 순찰",
+    "sensors": "360도 LiDAR, 3D depth 카메라, 5개 차동 마크",
+    "specifications": "10인치 HD 화면, 자율주행 및 개별 인물 추적(Follow me), 틸팅 화면",
+    "description": "고품질 음향 및 자율주행 추적 기능을 탑재하여 병원 화상 진료나 집안 자율 통화 로봇으로 쓰입니다."
+  },
+  {
+    "robot_id": "robot_063",
+    "model_name": "Relay",
+    "manufacturer": "Savioke",
+    "category": "호텔 객실 배달 로봇",
+    "purpose": "호텔 타월, 수건, 룸서비스 자동 전달",
+    "sensors": "LiDAR, 3D 카메라, 엘리베이터 무선 통신 모듈",
+    "specifications": "상부 자동 잠금 해제 탑재함, 엘리베이터 자율 탑승",
+    "description": "스스로 엘리베이터를 불러 객실 앞까지 이동한 뒤 객실 전화로 투숙객을 불러 선반을 열어줍니다."
+  },
+  {
+    "robot_id": "robot_064",
+    "model_name": "Keenbot T5",
+    "manufacturer": "Keenon Robotics",
+    "category": "식당 서빙 로봇",
+    "purpose": "음식 서빙 및 퇴식 멀티 레이어 트레이",
+    "sensors": "듀얼 SLAM 기술 (Visual SLAM + Laser SLAM)",
+    "specifications": "4단 레이어 트레이, 40kg 적재, 정밀 장애물 회피",
+    "description": "천장 마커 설치 없이도 자율 SLAM 주행으로 좁은 식당 통로를 자유롭게 서빙합니다."
+  },
+  {
+    "robot_id": "robot_065",
+    "model_name": "AeroClave UV Disinfection",
+    "manufacturer": "UVD Robots",
+    "category": "자율주행 방역 로봇",
+    "purpose": "병원 수술실 및 감염병 병동 UV-C 살균",
+    "sensors": "360도 살균 방사 센서, 안전 인체 감지 센서(사람 접근시 자외선 오프)",
+    "specifications": "UV-C 자외선 램프 8개 탑재, 10분 내 99.99% 박테리아/바이러스 사멸",
+    "description": "병원 방을 자율주행하며 강력한 자외선(UV-C)을 쬐어 바이러스를 소독하는 자율 살균 전문 로봇입니다."
+  },
+  {
+    "robot_id": "robot_066",
+    "model_name": "Whiz",
+    "manufacturer": "SoftBank Robotics",
+    "category": "자율주행 건식 바닥 청소 로봇",
+    "purpose": "대형 사무실, 호텔 로비 카페트 먼지 청소",
+    "sensors": "3D 뎁스 카메라, 2D LiDAR, 3D 범퍼 센서",
+    "specifications": "자체 AI 청소 동선 자율 생성(BrainOS), 수거 용량 4.0L",
+    "description": "작업자가 한 번 지도를 그려주면 교대의 패턴을 학습하여 대형 사무실 카페트를 무인 청소합니다."
+  },
+  {
+    "robot_id": "robot_067",
+    "model_name": "Roomba j7+",
+    "manufacturer": "iRobot",
+    "category": "가정용 로봇청소기",
+    "purpose": "가정용 바닥 자율 청소 및 장애물 회피",
+    "sensors": "PrecisionVision AI 카메라 센서 (전선, 반려동물 배변 인식)",
+    "specifications": "자체 먼지 비움 클린베이스 연동, 자율 지도 매핑",
+    "description": "전면 카메라 AI로 반려동물의 실수는 물론 스마트폰 충전 케이블까지 알아서 피해 가는 지능형 청소기입니다."
+  },
+  {
+    "robot_id": "robot_068",
+    "model_name": "Dreame L20 Ultra",
+    "manufacturer": "Dreame",
+    "category": "올인원 가전 청소 로봇",
+    "purpose": "가정용 물걸레 확장 청소 및 먼지 흡입",
+    "sensors": "LDS 레이저, AI 3D Structured Light 비전 센서, 물걸레 리프팅 센서",
+    "specifications": "7000Pa 흡입력, 모서리 자동 물걸레 확장(MopExtend), 자동 모풍 건조",
+    "description": "벽면 구석을 감지하면 물걸레 암이 외각으로 뻗어나와 벽 모서리를 깨끗이 닦는 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_069",
+    "model_name": "Ecovacs GOAT G1",
+    "manufacturer": "Ecovacs",
+    "category": "잔디 깎기 로봇",
+    "purpose": "정원 잔디 자율 깎기 및 구역 매핑",
+    "sensors": "TrueMapping Multi-Ray 비콘 센서, AI 비전 3D 카메라",
+    "specifications": "경계선 물리 매립 불필요, 무선 비콘 셋업, 45% 경사로 등반",
+    "description": "땅에 선을 묻지 않고 비콘 설치만으로 잔디밭 구역을 인식하여 자율 잔디 관리를 수행합니다."
+  },
+  {
+    "robot_id": "robot_070",
+    "model_name": "K5 Security Robot",
+    "manufacturer": "Knightscope",
+    "category": "야외 순찰 경비 로봇",
+    "purpose": "주차장, 기업 캠퍼스, 쇼핑몰 야간 경비",
+    "sensors": "4K 360도 카메라, 열화상 카메라, 번호판 인식(LPR), 샷스팟터(총성 감지)",
+    "specifications": "높이 1.5m, 무게 180kg, 방수 설계, 24시간 실시간 통합 관제 연동",
+    "description": "달걀 모양의 대형 경비 로봇으로 방범 번호판 스캔 및 거대 소음/이상징후 발생 시 관제센터로 경보를 보냅니다."
+  },
+  {
+    "robot_id": "robot_071",
+    "model_name": "T-HR3",
+    "manufacturer": "Toyota",
+    "category": "원격 조종 휴머노이드",
+    "purpose": "원격 가정 돌봄, 재난 현장 정밀 작업",
+    "sensors": "Master Position System 햅틱 피드백 프레임, VR 헤드셋 비전",
+    "specifications": "착용자가 움직이는 대로 똑같이 실시간 동기화 동작, 손끝 미세 촉감 피드백",
+    "description": "조종자가 VR과 마스터 외골격을 입고 움직이면 멀리 떨어진 공간의 로봇이 똑같이 움직입니다."
+  },
+  {
+    "robot_id": "robot_072",
+    "model_name": "Morphic 2",
+    "manufacturer": "Subsea 7 / Schilling Robotics",
+    "category": "해해 수중 작업 로봇 (ROV)",
+    "purpose": "심해 3000m 심해 원유 시추선 파이프 점검",
+    "sensors": "초음파 탐지 소나(Sonar), 고광량 수중 LED, 수중 카메라",
+    "specifications": "작동 심도 3000m, 유압식 수중 다관절 집게 암 2개",
+    "description": "사람이 내려갈 수 없는 깊은 바닷속 바닥에서 파이프 라인을 용접하고 유지보수하는 원격 수중 로봇입니다."
+  },
+  {
+    "robot_id": "robot_073",
+    "model_name": "RIMO",
+    "manufacturer": "KAIST RRC",
+    "category": "모듈형 로봇",
+    "purpose": "구조 변형 재난 수색",
+    "sensors": "자기장 결합 센서, 단일 관절 각도 센서",
+    "specifications": "여러 개 마디가 지렁이처럼 연결되거나 링 모양으로 변형 가능",
+    "description": "협소한 붕괴 건물 잔해 속을 지렁이 형태로 기어 들어간 뒤 공간이 나오면 동그랗게 굴러가는 변형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_074",
+    "model_name": "Thermite RS3",
+    "manufacturer": "Howe & Howe (Textron)",
+    "category": "소방 로봇",
+    "purpose": "대형 화재 현장 방수 및 고열 건물 내부 진입",
+    "sensors": "열화상 카메라, 유독가스 감지 센서, 멀티 스펙트럼 비전",
+    "specifications": "분당 9500리터 방수 노즐, 트랙 궤도 차체, 방열 유압 프레임",
+    "description": "소방관이 들어가기 위험한 유류 창고나 대형 화재 현장에 궤도로 진입해 강력한 물대포를 쏩니다."
+  },
+  {
+    "robot_id": "robot_075",
+    "model_name": "Centaur",
+    "manufacturer": "NASA JPL",
+    "category": "탐사용 켄타우로스 로봇",
+    "purpose": "달 및 화성 기지 건설 보조",
+    "sensors": "하부 4륜 메카넘 바퀴 + 상부 듀얼 로봇암 복합 센서",
+    "specifications": "바퀴 이동과 두 손 정밀 작업을 동시 수행하는 상하체 복합 로봇",
+    "description": "상체는 휴머노이드 두 팔을 갖고 하체는 바퀴 기반 구조로 우주 행성 기지 작업을 돕습니다."
+  },
+  {
+    "robot_id": "robot_076",
+    "model_name": "Perseverance Rover",
+    "manufacturer": "NASA / JPL",
+    "category": "우주 탐사 로봇 (Rover)",
+    "purpose": "화성 생명체 흔적 탐사 및 토양 샘플 채취",
+    "sensors": "Mastcam-Z 3D 카메라, SuperCam 레이저 분광기, RIMFAX 지하 탐사 레이더",
+    "specifications": "원자력(RTG) 동력, 6륜 로커-보기 서스펜션, 코어링 드릴 탑재",
+    "description": "화성 예제로 크레이터를 탐사하며 고대 미생물 흔적을 찾고 토양을 샘플링하는 원자력 탐사 로봇입니다."
+  },
+  {
+    "robot_id": "robot_077",
+    "model_name": "Curiosity Rover",
+    "manufacturer": "NASA / JPL",
+    "category": "우주 탐사 로봇",
+    "purpose": "화성 지질 분석 및 방사선 측정",
+    "sensors": "SAM 화학 분석기, ChemCam 레이저, Hazcams 장애물 센서",
+    "specifications": "무게 899kg, 화성 운행 10년 이상 달성, 로봇팔 암 드릴",
+    "description": "화성 기후와 암석 성분을 분석하여 화성에 물이 흘렀던 흔적을 밝혀낸 우주 탐사 로봇입니다."
+  },
+  {
+    "robot_id": "robot_078",
+    "model_name": "Canadarm3",
+    "manufacturer": "MDA / Canadian Space Agency",
+    "category": "우주정거장 대형 로봇팔",
+    "purpose": "달 궤도 정거장 Gateway 외벽 수리 및 우주선 도킹 지원",
+    "sensors": "우주용 3D LIDAR, 고방사선 견딤 광학 카메라",
+    "specifications": "8.5m 길이에 7자유도 스마트 주 암 + 소형 보조 정밀 암 패키지",
+    "description": "달 궤도 우주정거장에 설치되어 우주인 도움 없이 독자적으로 외벽 모듈을 보수하는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_079",
+    "model_name": "TALON V",
+    "manufacturer": "QinetiQ",
+    "category": "군사 폭발물 처리(EOD) 로봇",
+    "purpose": "폭발물(IED) 해체 및 위험 지역 수색",
+    "sensors": "360도 수색 카메라, 유독 가스 탐지기, 나이트 비전 IR",
+    "specifications": "궤도형 무한궤도, 고중량 로봇암 집게, 수중 방수 작동",
+    "description": "전 세계 군 및 경찰 특공대에서 위험한 폭발물을 안전거리에서 원격으로 해체할 때 사용합니다."
+  },
+  {
+    "robot_id": "robot_080",
+    "model_name": "PACKBOT 510",
+    "manufacturer": "Teledyne FLIR",
+    "category": "군사 정찰 및 EOD 로봇",
+    "purpose": "건물 수색, 폭발물 위험 제거, 방사능 측정",
+    "sensors": "FLIR 열화상 스캐너, 방사능 센서, 4개 정밀 카메라",
+    "specifications": "계단 등반 궤도 핑거, 9.3km/h 이동속도, 2m 낙하 충격 견딤",
+    "description": "계단을 단숨에 오르내리며 위험 지역 내부 상황을 실시간 전송해 주는 베스트셀러 군사 정찰 로봇입니다."
+  },
+  {
+    "robot_id": "robot_081",
+    "model_name": "Black Hornet 3",
+    "manufacturer": "Teledyne FLIR",
+    "category": "초소형 군사 정찰 드론 로봇",
+    "purpose": "소대급 정찰용 초소형 공중 수색",
+    "sensors": "HD 라이브 비전 카메라, 열화상 EO/IR 센서",
+    "specifications": "손바닥 크기(무게 33g), 비행시간 25분, 암전 속 무소음 주행, 바람 20노트 견딤",
+    "description": "손바닥에 올려놓고 띄우는 나비 크기의 정찰 드론으로 건물 뒤 적의 동태를 파악합니다."
+  },
+  {
+    "robot_id": "robot_082",
+    "model_name": "RIPSAW M5",
+    "manufacturer": "Howe & Howe / Textron",
+    "category": "무인 전투 장갑차 로봇 (RCV)",
+    "purpose": "선봉 기계화 정찰, 화력 지원, 드론 탑재",
+    "sensors": "360도 FLIR 센서 패키지, 자율 항법 AI 타겟팅 비전",
+    "specifications": "최고 속도 40mph, 30mm 기관포 탑재, 하이브리드 전기 전동식",
+    "description": "무인으로 아군 장갑차보다 앞서 나가 적의 화력을 흡수하고 맞대응하는 고속 궤도 전투 로봇입니다."
+  },
+  {
+    "robot_id": "robot_083",
+    "model_name": "Ecovacs DEEBOT X2 OMNI",
+    "manufacturer": "Ecovacs",
+    "category": "사각형 로봇청소기",
+    "purpose": "사각지대 바닥 먼지 모서리 청소",
+    "sensors": "듀얼-레이저 LiDAR 내장 모듈, RGBD AI 회피 센서",
+    "specifications": "Square 포맷 디자인, 8000Pa 흡입력, 15mm 자동 물걸레 리프팅",
+    "description": "기존 동그란 청소기 틀을 깨고 사각형으로 만들어 방 구석 모서리에 밀착 청소하는 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_084",
+    "model_name": "Farm-ng Amiga",
+    "manufacturer": "Farm-ng",
+    "category": "모듈형 농업 로봇",
+    "purpose": "농작물 제초, 씨앗 파종, 농장 데이터 수집",
+    "sensors": "RTK GPS, 농작물 식별 비전 카메라, 토양 습도 센서",
+    "specifications": "마이크로 휠 4WD, 오픈소스 소프트웨어, 전기 배터리 구동",
+    "description": "농부들이 필요한 파종기, 제초 모듈을 직접 커스텀 설치하여 이용하는 친환경 전기 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_085",
+    "model_name": "Dino",
+    "manufacturer": "Naïo Technologies",
+    "category": "대형 야채 밭 제초 로봇",
+    "purpose": "대규모 채소 농가 잡초 물리적 제거",
+    "sensors": "고정밀 작물/잡초 구분 비전 카메라, RTK-GPS",
+    "specifications": "작업 능력 시간당 5헥타르, 제초제 미사용 툴 내장",
+    "description": "화학 제초제 없이 카메라로 잡초만 찾아내 기계적인 쟁기로 잡초를 뽑아내는 유기농 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_086",
+    "model_name": "Rubion",
+    "manufacturer": "Octinion",
+    "category": "딸기 수확 로봇",
+    "purpose": "온실 딸기 당도 및 익음 감지 후 수확",
+    "sensors": "3D 스펙트럼 카메라 (당도 및 색상 분석), 정밀 햅틱 집게",
+    "specifications": "5초당 딸기 1개 수확, 멍들지 않는 3D 핑거 집게 구조",
+    "description": "스펙트럼 카메라로 잘 익은 딸기만 골라내어 상처 없이 꺾어 바구니에 담는 수확 전용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_087",
+    "model_name": "Monarch MK-V",
+    "manufacturer": "Monarch Tractor",
+    "category": "자율주행 스마트 트랙터",
+    "purpose": "포도밭 및 과수원 무인 경작",
+    "sensors": "360도 비전 카메라, 딥러닝 작물 상태 모니터링 시스템",
+    "specifications": "100% 순수 전기 트랙터, 70마력, 운전자 없이 경로 무인 가동",
+    "description": "경로를 스스로 자율주행하면서 일하고, 과수원 나무의 병충해 상태까지 촬영해 알려주는 트랙터입니다."
+  },
+  {
+    "robot_id": "robot_088",
+    "model_name": "Sweeper",
+    "manufacturer": "Sweeper Consortium",
+    "category": "파프리카 수확 로봇",
+    "purpose": "파쇄 온실 파프리카 자동 가위 절단 수확",
+    "sensors": "LED 조명 통합 RGB-D 비전, 과일 가림 방지 알고리즘",
+    "specifications": "가속 절단 메커니즘, 24시간 온실 야간 수확 가동",
+    "description": "잎사귀 뒤에 숨은 파프리카 색상을 비전으로 찾아서 줄기를 미세 가위로 잘라 수확합니다."
+  },
+  {
+    "robot_id": "robot_089",
+    "model_name": "Tertill",
+    "manufacturer": "Tertill Corporation",
+    "category": "가정용 잡초 제거 로봇",
+    "purpose": "마당 화단 잡초 깎기",
+    "sensors": "초음파 장애물 센서, 잡초 높이 판별 센서",
+    "specifications": "태양광 자가 충전 방수 차체, 잡초 절단 회전 나일론 끈",
+    "description": "태양광으로 매일 화단을 돌아다니며 작물보다 키가 작은 잡초만 잘라내는 미니 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_090",
+    "model_name": "OceanOneK",
+    "manufacturer": "Stanford Robotics Lab",
+    "category": "인어 형태 심해 탐사 로봇",
+    "purpose": "난파선 수중 유물 정밀 발굴 및 심해 탐사",
+    "sensors": "양안 스테레오 비전 카메라, 햅틱 피드백 손가락 힘 센서",
+    "specifications": "수심 1000m 견딤, 사람 크기 양팔과 인어 꼬리 형태 추진체",
+    "description": "조종자가 지상에서 장갑을 끼고 조종하면 심해 1000m의 난파선 도자기를 손 끝 감각을 느끼며 건져 올립니다."
+  },
+  {
+    "robot_id": "robot_091",
+    "model_name": "Gita",
+    "manufacturer": "Piaggio Fast Forward",
+    "category": "개인 추적 화물 로봇",
+    "purpose": "쇼핑 짐 보관 및 도보 추적 이동",
+    "sensors": "광학 파노라마 비전 추적 센서",
+    "specifications": "적재 용량 18kg, 최대 속도 9.6km/h, 대형 2륜 자이로 차체",
+    "description": "베스파 스쿠터 제조사가 만든 로봇으로 사용자의 뒷모습 레이아웃을 카메라로 파악해 짐을 싣고 따라옵니다."
+  },
+  {
+    "robot_id": "robot_092",
+    "model_name": "Aibo (ERS-1000)",
+    "manufacturer": "Sony",
+    "category": "반려 로봇 강아지",
+    "purpose": "정서적 교감 및 가정이 집안 모니터링",
+    "sensors": "코 부위 인공지능 카메라, 칭찬 인식 촉각 센서(머리, 턱, 백)",
+    "specifications": "22자유도, OLED 눈동자 표정, 딥러닝 행동 성장 모듈",
+    "description": "주인의 칭찬과 터치를 기억하여 유대감을 쌓으며 진짜 강아지처럼 애교를 부리는 감성 로봇입니다."
+  },
+  {
+    "robot_id": "robot_093",
+    "model_name": "Loona",
+    "manufacturer": "KEYi Tech",
+    "category": "스마트 AI 펫 로봇",
+    "purpose": "어린이 놀이, 감정 표현, 집안 홈 카메라",
+    "sensors": "3D ToF 카메라, 4개 마이크 어레이, 가속도 센서",
+    "specifications": "귀 모듈 움직임, ChatGPT 실시간 음성 대화 지원",
+    "description": "ChatGPT가 연결되어 어린이의 질문에 캐릭터 목소리로 답하고 귀를 쫑긋거리며 움직입니다."
+  },
+  {
+    "robot_id": "robot_094",
+    "model_name": "Moxie",
+    "manufacturer": "Embodied, Inc.",
+    "category": "아동 발달 교육 로봇",
+    "purpose": "어린이 사회성, 감정 조절 및 대화 훈련",
+    "sensors": "얼굴 감정 분석 카메라, 아동 음성 전용 NLP 마이크",
+    "specifications": "곡면 페이스 디스플레이, 감정 교육 주간 미션 프로그램",
+    "description": "어린이와 매일 대화하며 감정 표현 및 사회성 스킬을 연습시켜 주는 교육 전문 로봇 친구입니다."
+  },
+  {
+    "robot_id": "robot_095",
+    "model_name": "PARO",
+    "manufacturer": "AIST (일본 산업기술총합연구소)",
+    "category": "치료용 아기바다표범 로봇",
+    "purpose": "치매 환자 우울증 완화 및 정서 치료",
+    "sensors": "전신 덮인 털 하부 촉각 센서, 온도 감지기, 광 센서",
+    "specifications": "항균 털 소재, 사람 목소리에 반응하는 울음소리와 눈망울",
+    "description": "요양원과 병원에서 치매 환자들의 불안감을 낮춰주는 정식 의료기기 인증을 받은 심리 치료 로봇입니다."
+  },
+  {
+    "robot_id": "robot_096",
+    "model_name": "Snoo Smart Sleeper",
+    "manufacturer": "Happiest Baby",
+    "category": "스마트 영유아 요람 로봇",
+    "purpose": "신생아 울음 감지 및 자율 흔들림 수면 유도",
+    "sensors": "울음 소리 음향 감지 마이크 3개, 움직임 센서",
+    "specifications": "백색 소음 생성기, 단계별 흔들림 모터, 속싸개 안전 고정 속줄",
+    "description": "아기가 울면 울음 소리 단계를 분석해 요람을 부드럽게 흔들고 백색소음을 내어 재워주는 로봇 요람입니다."
+  },
+  {
+    "robot_id": "robot_097",
+    "model_name": "Moley Robotic Kitchen",
+    "manufacturer": "Moley Robotics",
+    "category": "로봇 주방 시스템",
+    "purpose": "셰프 레시피 모방 완전 자동 요리 조리",
+    "sensors": "주방 전체 3D 센서, 레시피 모션 캡처 트래킹 시스템",
+    "specifications": "천장 가이드 탑재 5핑거 듀얼 천장 로봇암, 인덕션 및 세척기 자동화",
+    "description": "마스터 셰프의 조리 손동작을 3D 녹화하여 조리도구를 잡고 재료를 넣어 정교하게 요리를 완성합니다."
+  },
+  {
+    "robot_id": "robot_098",
+    "model_name": "Bot Handy",
+    "manufacturer": "Samsung Electronics",
+    "category": "가정용 집사 로봇",
+    "purpose": "식기세척기 접시 넣기, 옷가지 정리, 와인 따르기",
+    "sensors": "AI 비전 카메라 (물체 재질 및 무게 정밀 파악), 1자유도 암",
+    "specifications": "높이 조절 몸체, 물체 재질(유리, 도자기, 천)별 잡는 힘 자율 조절",
+    "description": "유리잔이나 도자기 접시의 재질을 스스로 파악하여 깨지지 않을 적절한 힘으로 쥐어 정리합니다."
+  },
+  {
+    "robot_id": "robot_099",
+    "model_name": "Ballie",
+    "manufacturer": "Samsung Electronics",
+    "category": "가정용 공 모양 개인비서 로봇",
+    "purpose": "스마트홈 기기 제어, 반려동물 모니터링, 프로젝터 빔 상사",
+    "sensors": "공간 인식 LiDAR 센서, 전후면 카메라, 내장 빔 프로젝터",
+    "specifications": "자율주행 3륜 공 모양, 벽면/바닥 구도 자동 맞춤 빔 렌즈",
+    "description": "사용자를 따라다니며 집안 가전을 제어하고 벽이나 바닥에 화면을 쏘아 정보를 보여주는 개인비서 로봇입니다."
+  },
+  {
+    "robot_id": "robot_100",
+    "model_name": "Ecovacs AIRBOT Z1",
+    "manufacturer": "Ecovacs",
+    "category": "자율주행 공기청정 로봇",
+    "purpose": "집안 각 방 자율 이동 공기 질 청정 및 스피커",
+    "sensors": "PM2.5 / VOCs 공기질 측정 센서, TrueMapping 2.0 LiDAR",
+    "specifications": "HEPA H13 필터, 야마하 자율 블루투스 스피커 탑재, UV 공기 살균",
+    "description": "공기 질이 나쁜 방으로 스스로 이동하여 자율주행 공기 청정 및 살균 작업을 하는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_101",
+    "model_name": "Figure 02",
+    "manufacturer": "Figure AI",
+    "category": "휴머노이드 로봇",
+    "purpose": "차세대 스마트 공장 자동화 및 인공지능 실증",
+    "sensors": "3세대 비전 카메라, 전면 햅틱 촉각 손가락, 음성-시각 통합 AI 모델",
+    "specifications": "신장 168cm, 체중 60kg, 배터리 효율 50% 향상, 상업용 2세대 AI 탑재",
+    "description": "OpenAI의 대형 멀티모달 모델을 탑재하여 인간과 자연스럽게 대화하며 공장 부품 조립을 자율 수행하는 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_102",
+    "model_name": "Atlas (Electric)",
+    "manufacturer": "Boston Dynamics",
+    "category": "휴머노이드 로봇",
+    "purpose": "차세대 전동식 상업 현장 투입 및 동역학 고도화",
+    "sensors": "고정밀 관절 각도 센서, 광각 스테레오 비전, 3D 다관절 토크 센서",
+    "specifications": "전면 전동식 구동 시스템, 360도 무한 회전 관절 구조, 경량화된 고강도 프레임",
+    "description": "기존 유압식 아틀라스의 뒤를 이어 완전히 전동식으로 재탄생한 모델로, 더욱 유연하고 빠른 관절 가동 범위를 자랑합니다."
+  },
+  {
+    "robot_id": "robot_103",
+    "model_name": "Neo",
+    "manufacturer": "1X Technologies",
+    "category": "휴머노이드 로봇",
+    "purpose": "가정용 일상 가사 지원 및 안전한 인간 친화적 협업",
+    "sensors": "부드러운 생체 모방 외장 센서, 내장형 비전 카메라, 충격 흡수 관절 센서",
+    "specifications": "신장 165cm, 체중 30kg대 초경량 설계, 가정 내 안전 인증 취득",
+    "description": "인간과 물리적으로 부딪혀도 다치지 않도록 부드러운 소재와 가벼운 무게로 설계된 가정용 경량 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_104",
+    "model_name": "GR-1",
+    "manufacturer": "Fourier Intelligence",
+    "category": "휴머노이드 로봇",
+    "purpose": "재활 의료 지원 및 일반 산업 현장 보조",
+    "sensors": "전신 관절 힘 피드백 센서, 3D 깊이 카메라, 관성 측정 장치(IMU)",
+    "specifications": "신장 165cm, 체중 55kg, 최대 이동 속도 5km/h, 최대 하중 50kg 구동",
+    "description": "재활 의료 로봇 전문 기업이 개발하여 높은 수준의 보행 안정성과 하중 지지 능력을 갖춘 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_105",
+    "model_name": "H1 Pro",
+    "manufacturer": "Unitree Robotics",
+    "category": "휴머노이드 로봇",
+    "purpose": "극한 환경 고속 이동 및 고하중 작업 연구",
+    "sensors": "고성능 3D LiDAR, 뎁스 카메라, 울트라 토크 관절 액추에이터",
+    "specifications": "신장 180cm, 체중 50kg, 향상된 배터리 용량 및 고출력 관절 모터",
+    "description": "유니트리 고유의 고속 보행 알고리즘을 한층 업그레이드하여 더욱 빠르게 달리고 무거운 짐을 드는 프로 모델입니다."
+  },
+  {
+    "robot_id": "robot_106",
+    "model_name": "ASIMO 2.0 (Concept)",
+    "manufacturer": "Honda",
+    "category": "휴머노이드 로봇",
+    "purpose": "휴머노이드 원조 기술의 현대적 AI 결합 연구",
+    "sensors": "초정밀 균형 제어 센서, 시각 지능 모듈, 고감도 마이크 어레이",
+    "specifications": "혼다의 최신 이족 보행 밸런스 제어 알고리즘 및 자율 AI 연동",
+    "description": "과거 아시모의 유산을 이어받아 최신 생성형 인공지능과 결합해 부활을 도모하는 개념 모델입니다."
+  },
+  {
+    "robot_id": "robot_107",
+    "model_name": "Go2-W",
+    "manufacturer": "Unitree Robotics",
+    "category": "바퀴-4족 하이브리드 로봇",
+    "purpose": "평지 고속 주행 및 험지 극복 동시 수행",
+    "sensors": "4D 울트라와이드 LiDAR, 뎁스 카메라, 발목 바퀴 구동 모터 센서",
+    "specifications": "4족 보행 다리 끝단에 바퀴 장착, 평지 주행 시 배터리 효율 극대화",
+    "description": "평지에서는 바퀴로 빠르게 달리다가 계단이나 험지에서는 다리로 걸어 올라갈 수 있는 하이브리드 로봇입니다."
+  },
+  {
+    "robot_id": "robot_108",
+    "model_name": "Vision 60",
+    "manufacturer": "Ghost Robotics",
+    "category": "4족 보행 로봇",
+    "purpose": "군사 기지 경계 및 원격 정찰, 방수방진 특수 임무",
+    "sensors": "광각 적외선 카메라, 모듈형 군사 통신 센서 패키지, 360도 장애물 인지",
+    "specifications": "IP67 완전 방수방진, 모래바람 및 염해 환경 특화 내구성",
+    "description": "미국 군경 등에서 실전 배치되어 거친 야외 환경과 악천후 속에서도 묵묵히 경계 임무를 수행하는 4족 로봇입니다."
+  },
+  {
+    "robot_id": "robot_109",
+    "model_name": "RGO-Exo",
+    "manufacturer": "Hyundai Motor Group",
+    "category": "산업용 착용형 로봇 (Exoskeleton)",
+    "purpose": "제조 공정 작업자 상지 근력 보조 및 피로도 저감",
+    "sensors": "근전도(sEMG) 생체 센서, 모터 각도 감지 엔코더",
+    "specifications": "착용 편의성 강화, 최대 수십 킬로그램의 하중을 팔과 어깨로 분산",
+    "description": "현대자동차 생산 공장에서 상하차 작업을 하는 작업자의 어깨와 팔 근육 부담을 획기적으로 줄여주는 웨어러블 로봇입니다."
+  },
+  {
+    "robot_id": "robot_110",
+    "model_name": "H-CEX",
+    "manufacturer": "Hyundai Motor Group",
+    "category": "의자형 착용 로봇",
+    "purpose": "허벅지 및 허리 지지형 착용 의자 로봇",
+    "sensors": "착용자 자세 감지 지능형 센서 모듈",
+    "specifications": "무게 1.6kg 초경량, 무동력/반동력 하이브리드 허벅지 지지 구조",
+    "description": "쪼그려 앉거나 서서 일하는 작업자에게 의자 역할을 대신해 주어 관절 무리를 막아주는 착용형 보조기구입니다."
+  },
+  {
+    "robot_id": "robot_111",
+    "model_name": "ROAST",
+    "manufacturer": "Rainbow Robotics",
+    "category": "협동로봇 기반 커피 로봇",
+    "purpose": "원두 로스팅 및 전문 핸드드립 커피 추출 자동화",
+    "sensors": "온도 감지 센서, 정밀 유량 제어 모듈, 협동로봇 토크 센서",
+    "specifications": "바리스타의 손동작과 뜸들이기 과정을 정밀하게 재현하는 티칭 프로그램 탑재",
+    "description": "레인보우로보틱스의 협동로봇 팔을 활용해 바리스타의 섬세한 드립 스킬을 완벽하게 재현하는 F&B 로봇입니다."
+  },
+  {
+    "robot_id": "robot_112",
+    "model_name": "K-Rider",
+    "manufacturer": "Neuromeka",
+    "category": "치킨 조리 자동화 로봇",
+    "purpose": "대형 튀김기 치킨 입수, 털기 및 조리 자동화",
+    "sensors": "고온 방수 온도계, 기름 튀김 방지 쉴드 센서",
+    "specifications": "IP66 등급 고온 환경 특화 협동로봇, 자동 타이머 및 유조선 연동",
+    "description": "치킨 프랜차이즈 주방의 뜨겁고 위험한 튀김 업무를 대신하여 화상 위험을 없애고 균일한 맛을 내는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_113",
+    "model_name": "Dex-EE",
+    "manufacturer": "Google DeepMind",
+    "category": "인공지능 로봇 손 시스템",
+    "purpose": "종단간(End-to-End) 학습 기반 범용 물체 조작 연구",
+    "sensors": "고해상도 촉각 어레이 센서, 손가락 끝 미세 압력 감지기",
+    "specifications": "인공지능 비전과 결합하여 미끄러지기 쉬운 물건도 자유자재로 쥐는 로봇 손",
+    "description": "구글 딥마인드의 최신 인공지능 알고리즘을 탑재하여 사람처럼 물체를 손에서 이리저리 돌리며 조작하는 로봇 핸드입니다."
+  },
+  {
+    "robot_id": "robot_114",
+    "model_name": "Starship Delivery Bot",
+    "manufacturer": "Starship Technologies",
+    "category": "도심 자율주행 배달 로봇",
+    "purpose": "대학 캠퍼스 및 주택가 음식·택배 라스트마일 배송",
+    "sensors": "다채널 초음파, 360도 카메라, 레이더 센서",
+    "specifications": "6륜 구동방식, 적재함 원격 잠금 장치, 최대 시속 6km 안전 주행",
+    "description": "전 세계 수많은 도시의 보도블록에서 음식을 안전하게 배달하는 상용화된 대표 배달 로봇입니다."
+  },
+  {
+    "robot_id": "robot_115",
+    "model_name": "Relay+ Hospital",
+    "manufacturer": "Savioke",
+    "category": "병원 자율 이송 로봇",
+    "purpose": "병원 내 검체, 약품, 진료 기록지 신속 자율 배달",
+    "sensors": "병원 전용 지도 매핑 LiDAR, 자동문 무선 연동 센서",
+    "specifications": "보안 잠금 장치 탑재 수납함, 24시간 연속 교대 근무 지원",
+    "description": "종합병원 구내를 돌아다니며 환자의 검체를 안전하게 연구실로 나르는 병원 특화 자율 주행 로봇입니다."
+  },
+  {
+    "robot_id": "robot_116",
+    "model_name": "HUBO-XR",
+    "manufacturer": "KAIST",
+    "category": "재난 대응 원격 조종 휴머노이드",
+    "purpose": "원자력 발전소 사고 등 고위험 재난 구역 원격 개입",
+    "sensors": "방사선 감지 센서, VR 실시간 동기화 카메라, 힘 피드백 관절 모듈",
+    "specifications": "인간의 조종 명령을 초저지연으로 받아 재난 현장에서 도구를 집어 들고 밸브를 잠그는 로봇",
+    "description": "방사능이나 화재로 인간이 접근할 수 없는 극한 재난 구역에 투입되어 소방 및 복구 작업을 수행합니다."
+  },
+  {
+    "robot_id": "robot_117",
+    "model_name": "OR-100",
+    "manufacturer": "Asan Medical Center / Tech",
+    "category": "수술실 자동화 보조 로봇",
+    "purpose": "수술실 내 의료 소모품 및 기구 자율 이송",
+    "sensors": "의료진 동선 회피 비전 센서, 무균실 전용 공기 정화 필터",
+    "specifications": "완전 밀폐형 수납 구조, 클린룸 Class 100 기준 충족",
+    "description": "수술 중 급하게 필요한 의료 도구나 약물을 무균 상태로 신속하게 수술실까지 가져다주는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_118",
+    "model_name": "AeroGuard Drone",
+    "manufacturer": "DJI Enterprise",
+    "category": "산업용 자율 점검 드론",
+    "purpose": "풍력 발전기 날개 및 교량 케이블 정밀 균열 점검",
+    "sensors": "고배율 줌 카메라, 적외선 열화상 센서, 장애물 회피 비전",
+    "specifications": "GPS 음영 지역 실내 자율 비행, AI 균열 자동 검출 알고리즘 연동",
+    "description": "사람이 직접 올라가기 힘든 고층 구조물의 미세한 균열을 공중에서 정밀 촬영하여 안전 진단 데이터를 제공합니다."
+  },
+  {
+    "robot_id": "robot_119",
+    "model_name": "Robo-C2",
+    "manufacturer": "Promobot",
+    "category": "안드로이드 서비스 로봇",
+    "purpose": "호텔, 관공서 민원 응대 및 실물 모사형 안내",
+    "sensors": "얼굴 표정 모사 안면 액추에이터 30여 개, 음성 인식 마이크 어레이",
+    "specifications": "특정 인물의 얼굴과 목소리를 그대로 복제하여 맞춤형 응대 가능",
+    "description": "실제 사람의 외형과 표정을 매우 사실적으로 재현하여 안내원 역할을 수행하는 안드로이드 로봇입니다."
+  },
+  {
+    "robot_id": "robot_120",
+    "model_name": "Ecovacs DEEBOT X5 Pro OMNI",
+    "manufacturer": "Ecovacs",
+    "category": "프리미엄 로봇청소기",
+    "purpose": "초슬림 초강력 가정용 바닥 완전 자동 청소",
+    "sensors": "AINA 모델 기반 AI 드라이브, 초정밀 3D 장애물 회피, 모서리 청소 암",
+    "specifications": "12800Pa 초고속 흡입력, 70도 온수 물걸레 세척 및 열풍 건조 베이스",
+    "description": "최신 인공지능 자율주행과 초강력 흡입력을 갖추어 집안 구석구석을 스스로 완벽하게 관리하는 최상위 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_121",
+    "model_name": "Apollo",
+    "manufacturer": "Apptronik",
+    "category": "휴머노이드 로봇",
+    "purpose": "물류 상하차 및 창고 내 상자 핸들링",
+    "sensors": "머리 및 몸체 장착 RGB-D 비전, 충돌 감지 관절 센서",
+    "specifications": "신장 173cm, 체중 72.5kg, 최대 가반하중 25kg, 핫스왑 배터리",
+    "description": "상업용 물류 현장에 즉시 투입될 수 있도록 모듈식 배터리와 안전한 힘 제어 기능을 탑재한 범용 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_122",
+    "model_name": "Phoenix (General)",
+    "manufacturer": "Sanctuary AI",
+    "category": "휴머노이드 로봇",
+    "purpose": "매장 상품 진열 및 다목적 수작업 자동화",
+    "sensors": "고해상도 공간 인식 카메라, 인간 수준의 정밀 촉각 센서",
+    "specifications": "신장 170cm, 체중 70kg, 6자유도 양팔 조작 시스템",
+    "description": "인간의 손재주를 완벽히 모방하는 AI 제어 시스템을 통해 다양한 소매업무와 매장 정리를 수행합니다."
+  },
+  {
+    "robot_id": "robot_123",
+    "model_name": "Walker X",
+    "manufacturer": "UBTECH",
+    "category": "휴머노이드 로봇",
+    "purpose": "안내, 가정 내 다목적 서비스 및 엔터테인먼트",
+    "sensors": "다각도 비전 카메라, 힘/토크 센서, 음성 인식 마이크 배열",
+    "specifications": "신장 130cm, 체중 63kg, 전신 자유도 41개, 유연한 보행 제어",
+    "description": "사람과 함께 걸으며 음료를 건네거나 노래에 맞춰 춤을 추는 등 실생활 친화적 기능이 강화된 서비스 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_124",
+    "model_name": "Talos",
+    "manufacturer": "PAL Robotics",
+    "category": "연구용 휴머노이드",
+    "purpose": "항공우주 및 극한 산업 환경 작업 연구",
+    "sensors": "토크 센서 전신 내장, 스테레오 카메라, IMU",
+    "specifications": "신장 175cm, 체중 95kg, 토크 제어 기반 구동기",
+    "description": "로봇 공학 연구소에서 중량물 조작과 전신 토크 제어 알고리즘을 테스트하기 위해 제작된 고성능 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_125",
+    "model_name": "REEM-C",
+    "manufacturer": "PAL Robotics",
+    "category": "이족 보행 휴머노이드",
+    "purpose": "컨퍼런스 안내 및 인간-로봇 상호작용(HRI) 실험",
+    "sensors": "레이저 범위 파인더, 음성 합성 및 인식 모듈, RGB-D 카메라",
+    "specifications": "신장 165cm, 체중 80kg, 최대 보행 속도 1.5km/h",
+    "description": "안정적인 이족 보행을 바탕으로 박람회나 학회장에서 사람들을 맞이하고 안내하는 데 특화된 로봇입니다."
+  },
+  {
+    "robot_id": "robot_126",
+    "model_name": "HRP-5P",
+    "manufacturer": "AIST",
+    "category": "건설용 휴머노이드",
+    "purpose": "건축 현장 합판 설치 및 무인 건설 작업",
+    "sensors": "레이저 센서, 복합 비전 카메라, 관절 각도 엔코더",
+    "specifications": "신장 182cm, 체중 101kg, 중량물 취급 전신 협조 제어",
+    "description": "일본 산업기술종합연구소가 개발한 건설 현장 특화 로봇으로, 무거운 자재를 들고 벽면에 고정하는 작업을 수행합니다."
+  },
+  {
+    "robot_id": "robot_127",
+    "model_name": "Nao V6",
+    "manufacturer": "SoftBank Robotics",
+    "category": "소형 휴머노이드",
+    "purpose": "STEM 교육, 프로그래밍 실습 및 로봇 축구",
+    "sensors": "초음파 센서, 관성 센서, 양안 카메라, 터치 센서",
+    "specifications": "신장 58cm, 체중 5.4kg, 25자유도 전신 구동",
+    "description": "전 세계 로보컵(RoboCup) 대회 표준 기종이자 대학 및 학교에서 인공지능/코딩 교육용으로 널리 쓰이는 소형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_128",
+    "model_name": "Romeo",
+    "manufacturer": "SoftBank Robotics",
+    "category": "고령자 케어 휴머노이드",
+    "purpose": "노인 돌봄, 일상 보조 및 재활 지원 연구",
+    "sensors": "3D 카메라, 레이저 시스템, 정밀 촉각 센서 패널",
+    "specifications": "신장 140cm, 체중 31kg, 탄소섬유 경량 구조",
+    "description": "고령화 사회를 대비하여 거동이 불편한 노인들을 침대에서 일으키거나 물건을 집어주는 등의 돌봄 목적 연구용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_129",
+    "model_name": "Pyrrha",
+    "manufacturer": "Agility Robotics",
+    "category": "창고용 휴머노이드",
+    "purpose": "물류 창고 자동화 및 규격 상자 핸들링",
+    "sensors": "심도 비전 센서, 3D LiDAR, 관절 토크 감지기",
+    "specifications": "역관절 형태의 최적화된 하체 구조, 에너지 효율 극대화",
+    "description": "아길리티 로보틱스의 기술력을 이어받아 물류 센터 내 효율적인 상자 운반과 적재를 담당하는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_130",
+    "model_name": "Barrett WAM",
+    "manufacturer": "Barrett Technology",
+    "category": "정밀 로봇팔",
+    "purpose": "인간의 팔 움직임 모사 및 첨단 조작 연구",
+    "sensors": "케이블 구동 방식 전축 토크 센서",
+    "specifications": "7자유도, 제로 백래시(Zero-backlash) 케이블 드라이브",
+    "description": "인간의 팔과 관절 구조를 케이블로 정밀 구현하여 부드러운 힘 제어와 협동 연구에 쓰이는 명품 로봇팔입니다."
+  },
+  {
+    "robot_id": "robot_131",
+    "model_name": "Kinova Gen3",
+    "manufacturer": "Kinova",
+    "category": "의료/연구용 로봇팔",
+    "purpose": "장애인 보조, 휠체어 부착형 작업 및 정밀 실험",
+    "sensors": "모든 관절에 통합된 토크 및 위치 센서",
+    "specifications": "가반하중 2kg, 무게 5.3kg, IP65 방수방진 옵션",
+    "description": "가볍고 안전하여 전동 휠체어에 장착해 거동이 불편한 환자가 스스로 물건을 집는 데 주로 활용되는 로봇팔입니다."
+  },
+  {
+    "robot_id": "robot_132",
+    "model_name": "XArm 6",
+    "manufacturer": "UFACTORY",
+    "category": "경량 협동로봇",
+    "purpose": "데스크톱 환경 소형 조립 및 3D 프린팅 보조",
+    "sensors": "모터 전류 기반 충돌 감지 및 고해상도 엔코더",
+    "specifications": "가반하중 5kg, 작업 반경 700mm, 반복 정밀도 ±0.1mm",
+    "description": "카본 파이버 소재를 사용하여 가볍고 합리적인 가격으로 소규모 공방 및 실험실에서 인기가 높은 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_133",
+    "model_name": "Panda",
+    "manufacturer": "Franka Robotics",
+    "category": "정밀 조립 협동로봇",
+    "purpose": "전자기기 미세 조립 및 딥러닝 조작 연구",
+    "sensors": "7축 개별 고정밀 토크 센서",
+    "specifications": "가반하중 3kg, 작업 반경 855mm, ISO 10218 안전 규격 충족",
+    "description": "인간의 민감한 촉각을 모방하여 커넥터 체결이나 미세한 부품 조립을 오차 없이 수행하는 연구용 표준 로봇입니다."
+  },
+  {
+    "robot_id": "robot_134",
+    "model_name": "Aubo-i5",
+    "manufacturer": "AUBO Robotics",
+    "category": "협동로봇",
+    "purpose": "용접, 디스펜싱, 나사 조임 및 팔레타이징",
+    "sensors": "관절별 모듈식 인코더 및 충돌 감지 센서",
+    "specifications": "가반하중 5kg, 작업 반경 924mm, 경량 컴팩트 디자인",
+    "description": "모듈식 관절 설계로 유지보수가 쉽고 다양한 산업 현장에 유연하게 배치되는 범용 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_135",
+    "model_name": "JAKA Zu 7",
+    "manufacturer": "JAKA Robotics",
+    "category": "무선 연동 협동로봇",
+    "purpose": "식음료(F&B) 조리 및 광학 검사",
+    "sensors": "무선 티칭 펜던트 연동 센서, 본체 토크 센서",
+    "specifications": "가반하중 7kg, 작업 반경 793mm, IP68 방수방진 사양 제공",
+    "description": "무선 통신을 통한 간편한 프로그래밍이 가능하며 방수 성능이 뛰어나 주방이나 세척 환경에 적합한 로봇입니다."
+  },
+  {
+    "robot_id": "robot_136",
+    "model_name": "CS4",
+    "manufacturer": "Doosan Robotics",
+    "category": "소형 협동로봇",
+    "purpose": "실험실 자동화 및 미세 샘플 핸들링",
+    "sensors": "6개 축 고감도 토크 센서",
+    "specifications": "가반하중 4kg, 작업 반경 700mm, 최고 수준의 충돌 민감도",
+    "description": "두산로보틱스의 안전 기술을 계승하여 연구실이나 협소한 공간에서 사람과 밀착해 일하는 소형 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_137",
+    "model_name": "HCR-10",
+    "manufacturer": "Hanwha Robotics",
+    "category": "중대형 협동로봇",
+    "purpose": "대형 물품 이송, 팔레타이징 및 가공 보조",
+    "sensors": "다관절 안전 정지 센서, 토크 피드백 모듈",
+    "specifications": "가반하중 10kg, 작업 반경 1300mm",
+    "description": "한화의 기술력으로 제작되어 무거운 부품을 안전하게 옮기고 조립 라인의 생산성을 높여주는 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_138",
+    "model_name": "Indy7",
+    "manufacturer": "Neuromeka",
+    "category": "협동로봇",
+    "purpose": "치킨 튀기기, 바리스타 및 스마트 팩토리 공정",
+    "sensors": "임피던스 제어 기반 충돌 감지 센서",
+    "specifications": "가반하중 7kg, 작업 반경 800mm, 충돌 시 즉시 정지",
+    "description": "국내 외식업 자동화 시장(치킨 조리 등)에 선도적으로 도입되어 안전성과 가성비를 입증한 협동로봇입니다."
+  },
+  {
+    "robot_id": "robot_139",
+    "model_name": "HC10 3DT",
+    "manufacturer": "Yaskawa Electric",
+    "category": "인간 협조형 산업용 로봇",
+    "purpose": "중량물 조립 및 생산 라인 핸들링",
+    "sensors": "3D 비전 센서 패키지, 관절 내장 토크 센서",
+    "specifications": "가반하중 10kg, 작업 반경 1200mm, 안전 펜스 없는 운용",
+    "description": "로봇 안전 표준을 만족하여 사람과 같은 작업 공간에서 안전하게 무거운 부품을 건네주는 협동형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_140",
+    "model_name": "GP25",
+    "manufacturer": "Yaskawa Electric",
+    "category": "고속 수직 다관절 로봇",
+    "purpose": "자동차 부품 고속 핸들링 및 프레스 공정",
+    "sensors": "고정밀 엔코더, 다관절 위치 센서",
+    "specifications": "가반하중 25kg, 작업 반경 1730mm, 동급 최고 동작 속도",
+    "description": "탁월한 가속도와 빠른 동작 속도로 대량 생산 공장에서 자재를 쉬지 않고 옮기는 산업용 로봇팔입니다."
+  },
+  {
+    "robot_id": "robot_141",
+    "model_name": "KR 6 R900 sixx",
+    "manufacturer": "KUKA",
+    "category": "소형 다관절 로봇",
+    "purpose": "전자제품 조립, 글루잉 및 정밀 검사",
+    "sensors": "내장형 버스 시스템, 디지털 엔코더",
+    "specifications": "가반하중 6kg, 작업 반경 901mm, 바닥/벽면/천장 설치 가능",
+    "description": "공간 제약이 적고 다양한 각도로 설치할 수 있어 소형 부품 가공 라인에 필수적으로 들어가는 쿠카의 소형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_142",
+    "model_name": "IRB 460",
+    "manufacturer": "ABB",
+    "category": "고속 팔레타이징 로봇",
+    "purpose": "제조 및 물류 창고 박스 고속 팔레트 적재",
+    "sensors": "ABB IRC5 컨트롤러 연동 모션 센서",
+    "specifications": "가반하중 110kg, 작업 반경 2.4m, 세계 최고 수준의 팔레타이징 사이클 타임",
+    "description": "무거운 박스나 포대 자루를 순식간에 팔레트에 차곡차곡 쌓아 올리는 물류 전용 대형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_143",
+    "model_name": "Scara THL600",
+    "manufacturer": "Toshiba Machine",
+    "category": "스카라 로봇",
+    "purpose": "고속 픽앤플레이스 및 스크류 체결",
+    "sensors": "모션 컨트롤 엔코더 센서",
+    "specifications": "가반하중 6kg, 암 길이 600mm, 에너지 절감형 경량 설계",
+    "description": "전력 소비를 최소화하면서도 수평 평면상에서 빠른 속도로 부품을 정렬하는 스카라 로봇입니다."
+  },
+  {
+    "robot_id": "robot_144",
+    "model_name": "G6 Scara",
+    "manufacturer": "Epson Robotics",
+    "category": "고정밀 스카라 로봇",
+    "purpose": "하드디스크 부품 조립, 의료 기기 정밀 이송",
+    "sensors": "고해상도 백래시 제어 센서",
+    "specifications": "가반하중 6kg, 암 길이 450~550mm, 뛰어난 반복 정밀도",
+    "description": "미세한 오차도 허용되지 않는 첨단 전자 및 의료 부품 조립에 특화된 고정밀 수평 다관절 로봇입니다."
+  },
+  {
+    "robot_id": "robot_145",
+    "model_name": "FlexPicker IRB 360",
+    "manufacturer": "ABB",
+    "category": "병렬 델타 로봇",
+    "purpose": "식품, 제약 및 초콜릿 고속 분류 포장",
+    "sensors": "컨베이어 트래킹 비전 센서 시스템",
+    "specifications": "가반하중 1~8kg, 작업 영역 직경 1130mm, 분당 최대 150회 이상 피킹",
+    "description": "컨베이어 벨트 위를 흐르는 제품을 눈 깜짝할 사이에 집어 상자에 담는 고속 분산 델타 로봇의 대명사입니다."
+  },
+  {
+    "robot_id": "robot_146",
+    "model_name": "Horst600",
+    "manufacturer": "Fruitcore Robotics",
+    "category": "혁신 구조 다관절 로봇",
+    "purpose": "머신 텐딩, 사출기 부품 인서트 및 언로딩",
+    "sensors": "정밀 모터 피드백 센서, 안전 모니터링 모듈",
+    "specifications": "가반하중 6kg, 작업 반경 593mm, 독창적 사면체 관절 구조",
+    "description": "기존 로봇과 다른 독특한 기계적 구조를 채택하여 가격 대비 성능과 작업 반경 효율을 극대화한 산업용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_147",
+    "model_name": "RB-VULCAN",
+    "manufacturer": "Robotnik",
+    "category": "중량물 AGV/AMR",
+    "purpose": "물류창고 및 공장 간 무인 중량물 이송",
+    "sensors": "듀얼 안전 LiDAR, 오비탈 레이저 스캐너, 범퍼 센서",
+    "specifications": "적재 하중 500kg~1000kg, 리프트 탑재형 옴니디렉셔널 주행",
+    "description": "험한 산업 현장에서 무거운 파레트와 자재를 안전하게 목적지까지 실어나르는 고하중 자율이동로봇입니다."
+  },
+  {
+    "robot_id": "robot_148",
+    "model_name": "TIAGo",
+    "manufacturer": "PAL Robotics",
+    "category": "모바일 조작 로봇 (Mobile Manipulator)",
+    "purpose": "연구실 내 잡무 보조, 물건 집기 및 실내 자율주행",
+    "sensors": "RGB-D 헤드 카메라, 2D LiDAR, 7자유도 로봇암 탑재",
+    "specifications": "모바일 베이스 + 상반신 로봇암 결합형 구조, ROS/ROS2 완벽 지원",
+    "description": "바퀴 달린 이동 플랫폼 위에 로봇암을 올려놓아, 돌아다니며 문을 열고 물건을 집어 나르는 연구용 모바일 매니퓰레이터입니다."
+  },
+  {
+    "robot_id": "robot_149",
+    "model_name": "RB-KAIROS+",
+    "manufacturer": "Robotnik",
+    "category": "모바일 조작 로봇",
+    "purpose": "제조 공정 내 다목적 부품 조립 및 스마트 팩토리 실증",
+    "sensors": "360도 안전 LiDAR, 오수 페이로드 센서, 유니버설 로봇암 연동",
+    "specifications": "가반하중 100kg 이상 모바일 베이스, 협동로봇 암 결합",
+    "description": "이동성과 작업 능력을 동시에 갖추어 공장 내 여러 작업대를 스스로 찾아다니며 부품을 가공·조립하는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_150",
+    "model_name": "Stäubli HelMo",
+    "manufacturer": "Staubli",
+    "category": "모바일 자율 조작 로봇",
+    "purpose": "클린룸 환경 무인 부품 가공 및 물품 공급",
+    "sensors": "안전 레이저 스캐너, 비전 유도 시스템, 락킹 도크 센서",
+    "specifications": "AGV 플랫폼 + TX2 수직 다관절 로봇 결합, 모바일 클린룸 대응",
+    "description": "정밀한 다관절 로봇암이 자율주행 플랫폼 위에 탑재되어 반도체 및 제약 클린룸 내부를 오가며 정밀 작업을 수행합니다."
+  },
+  {
+    "robot_id": "robot_151",
+    "model_name": "R-Bics AMR",
+    "manufacturer": "Seoul Robotics",
+    "category": "인프라 연동 AMR",
+    "purpose": "기존 일반 지게차 및 대차의 무인 자율주행화 개조",
+    "sensors": "외부 인프라 센서 연동 3D 라이다, 정밀 위치 추정 모듈",
+    "specifications": "클라우드 관제 연동, 중앙 집중식 실시간 군집 제어",
+    "description": "로봇 자체 센서뿐만 아니라 천장에 설치된 외부 센서(인프라)의 안내를 받아 공장 안을 자율주행하는 스마트 물류 시스템입니다."
+  },
+  {
+    "robot_id": "robot_152",
+    "model_name": "Surena IV",
+    "manufacturer": "University of Tehran",
+    "category": "휴머노이드 로봇",
+    "purpose": "이족 보행 동역학 및 인간과의 상호작용 연구",
+    "sensors": "힘/토크 센서, 관성 측정 장치(IMU), 비전 카메라",
+    "specifications": "신장 147cm, 체중 68kg, 31개 자유도 관절 모터",
+    "description": "이란에서 개발된 대표적인 연구용 휴머노이드로, 험지 보행 안정성과 물체 파지 능력을 지속적으로 업그레이드하고 있습니다."
+  },
+  {
+    "robot_id": "robot_153",
+    "model_name": "THOR",
+    "manufacturer": "UCLA / Virginia Tech",
+    "category": "재난 구조 휴머노이드",
+    "purpose": "재난 환경 장애물 통과, 밸브 잠금 및 도구 사용",
+    "sensors": "다각도 라이다, 오비탈 비전, 양손 햅틱 센서",
+    "specifications": "DARPA 로보틱스 챌린지 참가 모델, 전신 유압/전기 복합 구동",
+    "description": "재난 현장에서 인간이 수행하기 어려운 위험천만한 물리적 조작과 구조 임무를 수행하도록 설계된 로봇입니다."
+  },
+  {
+    "robot_id": "robot_154",
+    "model_name": "Valkyrie (R5)",
+    "manufacturer": "NASA Johnson Space Center",
+    "category": "우주 재난 대응 휴머노이드",
+    "purpose": "행성 탐사 기지 건설 및 우주 정비 지원",
+    "sensors": "멀티스펙트럼 LIDAR, 다채널 카네기멜론 비전 시스템",
+    "specifications": "신장 188cm, 체중 136kg, 배터리 구동, 44개 자유도",
+    "description": "나사가 화성 등 우주 행성에 인간 선발대 대신 먼저 투입해 기지를 짓고 위험한 정비 작업을 하도록 개발한 바이퍼 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_155",
+    "model_name": "CHARLI-2",
+    "manufacturer": "Virginia Tech",
+    "category": "휴머노이드 축구 로봇",
+    "purpose": "이족 보행 축구 및 로보컵 경기 수행",
+    "sensors": "고속 비전 카메라, 관성 센서, 발바닥 압력 센서",
+    "specifications": "신장 141cm, 체중 14.3kg, 가벼운 탄소 섬유 프레임 구조",
+    "description": "가벼운 무게와 탁월한 균형 감각으로 두 발로 잔디를 빠르게 뛰어다니며 공을 차는 로보컵 전용 휴머노이드입니다."
+  },
+  {
+    "robot_id": "robot_156",
+    "model_name": "ATRIAS",
+    "manufacturer": "Oregon State University",
+    "category": "이족 보행 로봇",
+    "purpose": "새의 보행 원리 모방 및 고효율 야외 보행 연구",
+    "sensors": "스프링 관절 인코더, IMU, 각도 센서",
+    "specifications": "가볍고 유연한 스프링 다리 구조, 거친 들판 주행 특화",
+    "description": "타조나 닭 같은 조류의 다리 근골격 구조와 스프링 반발력을 모방하여 에너지 효율이 극대화된 보행 로봇입니다."
+  },
+  {
+    "robot_id": "robot_157",
+    "model_name": "Cassie",
+    "manufacturer": "Agility Robotics",
+    "category": "타조형 이족 보행 로봇",
+    "purpose": "역관절 보행 알고리즘 검증 및 야외 자율 이동",
+    "sensors": "관절 위치 센서, IMU 내비게이션",
+    "specifications": "무릎이 뒤로 굽는 역관절 구조, 기네스 북 보행 기록 보유",
+    "description": "상체가 없는 하체 형태의 보행 로봇으로, 산길과 눈밭을 넘어 자율주행으로 마라톤을 완주해 화제를 모았던 모델입니다."
+  },
+  {
+    "robot_id": "robot_158",
+    "model_name": "MELTRIC",
+    "manufacturer": "National Institute of Advanced Industrial Science",
+    "category": "원전 사고 대응 로봇",
+    "purpose": "고방사선 환경 내부 점검 및 잔해 제거",
+    "sensors": "방사선량 측정 센서, 고온 내성 카메라, 무선 통신 릴레이",
+    "specifications": "방사능 차폐 특수 외장, 무한궤도 주행 시스템",
+    "description": "원전 사고 등으로 인간이 절대 들어갈 수 없는 고농도 방사선 구역에 투입되어 내부 상태를 정밀 정찰합니다."
+  },
+  {
+    "robot_id": "robot_159",
+    "model_name": "PackBot EOD",
+    "manufacturer": "iRobot / FLIR",
+    "category": "군사 폭발물 처리 로봇",
+    "purpose": "급조폭발물(IED) 정찰 및 무력화",
+    "sensors": "컬러 줌 카메라, 적외선 센서, 양방향 오디오",
+    "specifications": "휴대용 접이식 무한궤도, 가벼운 무게로 군장 결속 가능",
+    "description": "전 세계 분쟁 지역에서 군인들의 생명을 지키기 위해 최전선에서 폭발물을 찾아내고 해체하는 소형 궤도 로봇입니다."
+  },
+  {
+    "robot_id": "robot_160",
+    "model_name": "Dragon Runner",
+    "manufacturer": "QinetiQ",
+    "category": "초소형 군사 정찰 로봇",
+    "purpose": "시가전 및 좁은 건물 내부 수색",
+    "sensors": "야간 투시 카메라, 광각 렌즈, 마이크",
+    "specifications": "던져서 투입 가능(충격 견딤), 주머니에 들어가는 컴팩트 크기",
+    "description": "창문이나 건물 안으로 멀리 던져 넣어도 고장 나지 않으며, 적진의 내부 상황을 은밀하게 전송하는 투척형 로봇입니다."
+  },
+  {
+    "robot_id": "robot_161",
+    "model_name": "MAARS",
+    "manufacturer": "Remotec",
+    "category": "무인 전투 경비 로봇",
+    "purpose": "기지 경계 초소 방어 및 위험 지역 화력 지원",
+    "sensors": "데이/나이트 주야간 카메라, 레이저 조준기, 동작 감지기",
+    "specifications": "궤도형 차체, 기관총 또는 연막탄 발사기 모듈 탑재 가능",
+    "description": "군사 기지 외곽을 무인으로 순찰하며 수상한 침입자를 발견하면 경고하고 필요 시 대응 화력을 제공하는 전투 로봇입니다."
+  },
+  {
+    "robot_id": "robot_162",
+    "model_name": "Sentry Tech",
+    "manufacturer": "Samsung Techwin",
+    "category": "경계 감시 로봇",
+    "purpose": "DMZ 및 중요 시설 고정형 자동 경계 감시",
+    "sensors": "열상 감시장비(TOD), 레이저 거리 측정기, 음원 탐지기",
+    "specifications": "자동 표적 추적 시스템, 주야간 4km 이상 감시 반경",
+    "description": "철책 및 군사 경계 지역에서 사람이나 차량의 움직임을 스스로 탐지하고 추적하는 첨단 감시 시스템 로봇입니다."
+  },
+  {
+    "robot_id": "robot_163",
+    "model_name": "Protector USV",
+    "manufacturer": "Rafael Advanced Defense Systems",
+    "category": "무인 수상정 (USV)",
+    "purpose": "해안선 경비, 대테러 작전 및 해상 정찰",
+    "sensors": "Mini-Typhoon 기관총 원격 제어 비전, 해상 레이더, EO/IR 센서",
+    "specifications": "고속 단정  hulls 구조, 원격 조종 및 자율 항해 병행",
+    "description": "바다 위를 무인으로 고속 질주하며 해상 침입 세력을 감시하고 차단하는 무인 수상 경비 로봇함입니다."
+  },
+  {
+    "robot_id": "robot_164",
+    "model_name": "Sea Hunter",
+    "manufacturer": "DARPA / Leidos",
+    "category": "무인 자율 항해 수상함",
+    "purpose": "장기 해상 자율 순찰 및 잠수함 추적",
+    "sensors": "고성능 해상 레이더, 수중 소나, 충돌 회피 광학 카메라",
+    "specifications": "길이 40번대 대형 트리스탄선, 수개월간 연료 보급 없이 자율 항해",
+    "description": "수천 킬로미터 떨어진 바다를 인간의 조종 없이 스스로 항해하며 적의 잠수함을 찾아내는 거대 자율주행 선박 로봇입니다."
+  },
+  {
+    "robot_id": "robot_165",
+    "model_name": "Bluefin-21",
+    "manufacturer": "General Dynamics",
+    "category": "자율 무인 잠수정 (AUV)",
+    "purpose": "심해 수색, 해저 지형 매핑 및 실종 잔해 탐색",
+    "sensors": "사이드스캔 소나, 심해 초음파 탐지기, 수온/염분 센서",
+    "specifications": "최대 잠항 수심 4500m, 어뢰 모양 유선형 선체",
+    "description": "바다 깊은 곳으로 가라앉아 해저 면을 샅샅이 스캔하며 항공기 잔해나 침몰 선박을 찾아내는 심해 탐사 로봇입니다."
+  },
+  {
+    "robot_id": "robot_166",
+    "model_name": "Remus 600",
+    "manufacturer": "HII (Kongsberg)",
+    "category": "해양 조사용 AUV",
+    "purpose": "해양 환경 조사, 기뢰 탐색 및 해저 케이블 점검",
+    "sensors": "음향 3D 소나, 항법용 DVL(도플러 속도 로그), 광학 센서",
+    "specifications": "작동 심도 600m, 배터리 기반 장거리 자율 항행",
+    "description": "바다 속 지정된 경로를 오차 없이 항해하며 해양 생태계와 해저 지형 데이터를 수집하는 전문 조사 로봇입니다."
+  },
+  {
+    "robot_id": "robot_167",
+    "model_name": "Proteus AUV",
+    "manufacturer": "Battelle",
+    "category": "대형 복합 무인 잠수정",
+    "purpose": "특수 부대원 수중 수송 및 화물 운반",
+    "sensors": "수중 내비게이션 소나, 장애물 회피  акустический 센서",
+    "specifications": "유인/무인 겸용 전환 가능, 잠수부 탑승 공간 보유",
+    "description": "평소에는 무인 자율 잠수정으로 임무를 수행하다가 필요 시 다이버들을 태우고 깊은 바다를 은밀히 이동하는 대형 잠수 로봇입니다."
+  },
+  {
+    "robot_id": "robot_168",
+    "model_name": "CleverRobot Cleaner",
+    "manufacturer": "Ecovacs",
+    "category": "가정용 로봇청소기",
+    "purpose": "스마트홈 바닥 먼지 흡입 및 물걸레 케어",
+    "sensors": "TrueDetect 3D 장애물 회피 센서, LDS 레이저 매핑",
+    "specifications": "자동 온수 세척, 자동 먼지 비움 스테이션 연동",
+    "description": "집안 구조를 정밀하게 스캔하여 장애물을 요리조리 피해 가며 깨끗하게 바닥을 청소하는 대중적인 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_169",
+    "model_name": "Roborock S8 Pro Ultra",
+    "manufacturer": "Roborock",
+    "category": "올인원 로봇청소기",
+    "purpose": "듀얼 물걸레 진동 청소 및 바닥 자동 관리",
+    "sensors": "Reactive 3D 장애물 인식 적외선 센서, LDS 내비게이션",
+    "specifications": "6000Pa 흡입력, 물걸레 자동 리프팅 및 온풍 건조",
+    "description": "카펫을 만나면 물걸레를 위로 싹 들어 올리고, 청소가 끝나면 알아서 물걸레를 빨고 말려주는 프리미엄 청소 로봇입니다."
+  },
+  {
+    "robot_id": "robot_170",
+    "model_name": "Bissell SpinWave",
+    "manufacturer": "Bissell",
+    "category": "물걸레 전용 로봇청소기",
+    "purpose": "마루 바닥 회전 물걸레 질 집중 청소",
+    "sensors": "자이로스코프 네비게이션, 전방 충돌 방지 범퍼",
+    "specifications": "듀얼 회전 패드, 저소음 설계, 스마트폰 앱 연동",
+    "description": "진공 흡입보다는 바닥의 찌든 때를 두 개의 회전 패드로 빡빡 닦아내는 데 특화된 물걸레 전문 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_171",
+    "model_name": "LawnMaster V1",
+    "manufacturer": "Greenworks",
+    "category": "무선 잔디깎이 로봇",
+    "purpose": "주택 정원 잔디 자동 커팅 및 관리",
+    "sensors": "GPS RTK 정밀 위치 센서, 빗물 감지 센서",
+    "specifications": "날씨 연동 자율 작동, 무선 가상 경계 설정",
+    "description": "비가 오면 알아서 충전 대로 돌아가고, 설정된 시간에 맞춰 정원 잔디를 깔끔하게 다듬어주는 스마트 가전 로봇입니다."
+  },
+  {
+    "robot_id": "robot_172",
+    "model_name": "PoolCopilot",
+    "manufacturer": "Dolphin Pool Up",
+    "category": "수영장 청소 로봇",
+    "purpose": "야외 수영장 바닥 및 벽면 이물질 흡입 청소",
+    "sensors": "수중 자이로 센서, 수직 벽면 밀착 감지기",
+    "specifications": "강력한 수중 필터 펌프, 자율 수영장 바닥 주행 트랙",
+    "description": "펜션이나 가정의 수영장 물속에 넣어두면 벽을 타고 올라가며 낙엽과 이물질을 말끔히 빨아들이는 수중 청소 로봇입니다."
+  },
+  {
+    "robot_id": "robot_173",
+    "model_name": "Windowmate",
+    "manufacturer": "Riotec",
+    "category": "창문 청소 로봇",
+    "purpose": "고층 아파트 창문 외부 자동 유리창 닦기",
+    "sensors": "프레임 감지 센서, 강력 영구 자석/진공 흡착 센서",
+    "specifications": "양면 동시 청소 또는 진공 흡착식 단면 세척, 비상 낙하 방지 로프",
+    "description": "손 닿기 위험한 고층 빌딩이나 아파트 바깥쪽 유리창에 착 달라붙어 앞뒤로 움직이며 창문을 반짝반짝 닦아주는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_174",
+    "model_name": "Pebblebee Finder Bot",
+    "manufacturer": "Pebblebee",
+    "category": "소형 실내 추적 로봇",
+    "purpose": "가정 내 분실물 찾기 및 소형 화물 이송",
+    "sensors": "블루투스 LE 비전 리더, 초음파 거리 센서",
+    "specifications": "초소형 바퀴 차체, 스마트폰 위치 추적 연동",
+    "description": "집안에서 스마트폰이나 열쇠 등 자주 잃어버리는 물건을 찾아내어 사용자에게 가져다주는 미니 이동 로봇입니다."
+  },
+  {
+    "robot_id": "robot_175",
+    "model_name": "Kuri",
+    "manufacturer": "Wand Labs",
+    "category": "가정용 감성 반려 로봇",
+    "purpose": "가족 일상 촬영, 홈 시큐리티 및 감성 교감",
+    "sensors": "HD 카메라, 터치 센서, 마이크 어레이, 오디오 스피커",
+    "specifications": "바퀴형 이동, 눈 깜빡임 애니메이션 LED, 귀여운 감정 소리",
+    "description": "집안을 돌아다니며 자연스러운 가족들의 일상을 영상으로 담아주고 집을 지켜주는 친근한 홈 로봇입니다."
+  },
+  {
+    "robot_id": "robot_176",
+    "model_name": "Jibo",
+    "manufacturer": "Jibo Inc",
+    "category": "소셜 데스크톱 로봇",
+    "purpose": "스마트홈 허브, 비서 업무 및 감성 대화",
+    "sensors": "360도 음성 인식 마이크, 얼굴 인식 카메라",
+    "specifications": "3축 회전 몸체, 원형 디스플레이 얼굴 표정",
+    "description": "책상 위에 앉아 사람의 목소리와 얼굴을 인식해 고개를 갸웃거리며 날씨를 알려주고 대화를 나누는 소셜 로봇입니다."
+  },
+  {
+    "robot_id": "robot_177",
+    "model_name": "Miko 3",
+    "manufacturer": "Miko",
+    "category": "아동 교육용 AI 로봇",
+    "purpose": "어린이 코딩 학습, 퀴즈 및 댄스 놀이",
+    "sensors": "광각 AI 카메라, 고감도 마이크, 터치 스크린",
+    "specifications": "바퀴 이동, 감정 표현 대화 프로그램, 안전 콘텐츠 탑재",
+    "description": "아이들의 친구가 되어 재미있는 스토리텔링과 학습 콘텐츠를 제공하며 상호작용하는 교육용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_178",
+    "model_name": "Cozmo",
+    "manufacturer": "Anki",
+    "category": "AI 지능형 완구 로봇",
+    "purpose": "사용자와의 미니 게임, 감정 표현 및 코딩 교육",
+    "sensors": "얼굴 인식 카메라, 절벽 감지 센서, 블록 인식 비전",
+    "specifications": "탱크 궤도 차체, 액정 눈동자 표정, 작은 포크리프트 팔",
+    "description": "작은 포크리프트 모양으로 생겨서 주인을 알아보고 블록을 쌓거나 화를 내는 등 살아있는 듯한 감정을 보여주는 완구 로봇입니다."
+  },
+  {
+    "robot_id": "robot_179",
+    "model_name": "Vector",
+    "manufacturer": "Digital Dream Labs",
+    "category": "데스크톱 AI 로봇",
+    "purpose": "자율 주행 탁상 비서 및 날씨/시간 안내",
+    "sensors": "HD 카메라, 4채널 마이크, 적외선 클리프 센서",
+    "specifications": "프로세서 내장, 자율 충전 독 복귀, 음성 명령 응답",
+    "description": "Cozmo의 후속작으로 인터넷 클라우드에 의존하지 않고 자체 칩셋 연산으로 책상 위를 자유롭게 돌아다니며 비서 역할을 합니다."
+  },
+  {
+    "robot_id": "robot_180",
+    "model_name": "Eilik",
+    "manufacturer": "Energize Lab",
+    "category": "데스크톱 감성 동반자 로봇",
+    "purpose": "사용자와의 정서적 교감 및 스트레스 해소",
+    "sensors": "진동 센서, 터치 감지 패널, 얼굴 OLED 화면",
+    "specifications": "모듈형 인터랙션, 다른 Eilik 로봇과의 블루투스 소통",
+    "description": "책상 위에 올려두면 귀여운 목소리와 풍부한 표정으로 주인의 행동에 반응하며 위로를 주는 작은 감성 로봇입니다."
+  },
+  {
+    "robot_id": "robot_181",
+    "model_name": "Agrobot SW6000",
+    "manufacturer": "Agrobot",
+    "category": "딸기 자동 수확 로봇",
+    "purpose": "대규모 스마트팜 온실 딸기 정밀 수확",
+    "sensors": "다중 로봇암 끝단 광학 센서, 과일 숙성도 판별 비전",
+    "specifications": "레일 주행 방식 14개 로봇암 동시 구동, 상처 없는 집게",
+    "description": "길게 늘어진 스마트팜 레일을 따라 이동하며 카메라로 익은 딸기를 판별해 여러 개의 팔로 동시에 따내는 대형 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_182",
+    "model_name": "Thorvald",
+    "manufacturer": "SAGA Robotics",
+    "category": "모듈형 농업 로봇 플랫폼",
+    "purpose": "포도밭 및 딸기 온실 UV-C 살균, 해충 방제",
+    "sensors": "작물 모니터링 카메라, 자외선 살균 램프 어레이, RTK-GPS",
+    "specifications": "대형 바퀴 구동, 모듈형 프레임으로 다양한 농업 도구 장착",
+    "description": "농약 대신 밤마다 자외선(UV-C)을 쬐어 곰팡이와 해충을 방제하며 농장을 묵묵히 순찰하는 친환경 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_183",
+    "model_name": "BoniRob",
+    "manufacturer": "Bosch / Deepfield Robotics",
+    "category": "다목적 필드 농업 로봇",
+    "purpose": "정밀 제초 및 작물 생장 상태 데이터 분석",
+    "sensors": "고정밀 비전 센서, 토양 압력 측정 센서, 레이저 스캐너",
+    "specifications": "4륜 독립 구동, 무거운 본체로 거친 농경지 주파",
+    "description": "보스턴의 기술력이 녹아든 농업 로봇으로, 밭을 돌아다니며 잡초를 핀셋처럼 찌르거나 솎아내는 작업을 수행합니다."
+  },
+  {
+    "robot_id": "robot_184",
+    "model_name": "LaserWeeder",
+    "manufacturer": "Carbon Robotics",
+    "category": "레이저 제초 로봇",
+    "purpose": "인공지능 기반 실시간 레이저 잡초 소각 제거",
+    "sensors": "초고속 고해상도 AI 비전 카메라 시스템",
+    "specifications": "시간당 수만 개의 잡초를 고출력 레이저로 정확히 조준 소각",
+    "description": "트랙터가 끌고 가며 카메라로 작물과 잡초를 0.05초 만에 구분하여 화학 제초제 없이 레이저로 잡초만 태워 죽이는 첨단 농업 로봇입니다."
+  },
+  {
+    "robot_id": "robot_185",
+    "model_name": "Octinion Rubion",
+    "manufacturer": "Octinion",
+    "category": "온실 과일 수확 로봇",
+    "purpose": "파프리카 및 토마토 자동 수확",
+    "sensors": "3D 스펙트럼 비전 센서, 부드러운 소프트 그립 핑거",
+    "specifications": "과일에 상처를 주지 않는 공압/햅틱 집게 제어",
+    "description": "잎사귀 사이에 숨은 과일의 익은 상태를 분석하고 꼭지를 깔끔하게 잘라 바구니에 담는 수확 로봇입니다."
+  },
+  {
+    "robot_id": "robot_186",
+    "model_name": "VitiBot VineScout",
+    "manufacturer": "VitiBot",
+    "category": "포도밭 자율주행 모니터링 로봇",
+    "purpose": "포도나무 건강 상태 및 토양 수분 정밀 측정",
+    "sensors": "다양한 기상/토양 센서 패키지, 360도 카메라",
+    "specifications": "전기 구동 4륜 차체, 좁은 포도나무 사이 자율주행",
+    "description": "프랑스 포도밭 사이를 돌아다니며 포도의 당도, 병해충 여부, 토양 상태를 실시간 진단해 와인 농가를 돕는 로봇입니다."
+  },
+  {
+    "robot_id": "robot_187",
+    "model_name": "Tevel Flying Autonomous Robot",
+    "manufacturer": "Tevel Aerobotics",
+    "category": "과수원 자율 비행 수확 드론",
+    "purpose": "사과, 복숭아 등 과일 공중 수확 및 선별",
+    "sensors": "과일 인식 비전 카메라, 위치 유지 GPS 및 비전 센서",
+    "specifications": "와이어로 연결된 모바일 플랫폼과 연동된 다기능 수확 드론",
+    "description": "땅에 있는 전용 카트에 와이어로 연결된 드론들이 공중으로 날아올라 나무에 매달린 사과를 정교하게 수확합니다."
+  },
+  {
+    "robot_id": "robot_188",
+    "model_name": "Eno",
+    "manufacturer": "Enoglobal",
+    "category": "스마트 양조장 로봇",
+    "purpose": "와인 숙성 오크통 자동 세척 및 관리",
+    "sensors": "내부 오염도 스캔 카메라, 고압 세척 유량 센서",
+    "specifications": "오크통 내부 회전형 세척 노즐, 방수 방진 특화 설계",
+    "description": "와인을 숙성하는 무수한 오크통 속을 스스로 찾아 들어가 찌꺼기를 고압으로 깨끗이 씻어내는 양조장 전용 로봇입니다."
+  },
+  {
+    "robot_id": "robot_189",
+    "model_name": "BakeBot",
+    "manufacturer": "Miso Robotics",
+    "category": "제과제빵 자동화 로봇",
+    "purpose": "제빵 공정 반죽 성형 및 오븐 트레이 적재",
+    "sensors": "반죽 점성 감지 토크 센서, 열기 차단 비전",
+    "specifications": "고온 환경 내구성을 갖춘 협동로봇 암 패키지",
+    "description": "제빵 공장의 뜨겁고 반복적인 반죽 성형 및 오븐 넣기 작업을 사람 대신 완벽하게 수행하는 베이커리 로봇입니다."
+  },
+  {
+    "robot_id": "robot_190",
+    "model_name": "Flippy 2",
+    "manufacturer": "Miso Robotics",
+    "category": "패스트푸드 주방 조리 로봇",
+    "purpose": "감자튀김 및 패티 자동 튀기기 및 바스켓 핸들링",
+    "sensors": "기름 온도 센서, 튀김 바구니 인식 AI 카메라",
+    "specifications": "레일 부착형 협동로봇 암, 고속 조리 시퀀스 제어",
+    "description": "미국의 유명 버거 프랜차이즈 주방에 도입되어 바삭한 감자튀김을 정해진 시간에 정확히 튀겨내는 주방 로봇입니다."
+  },
+  {
+    "robot_id": "robot_191",
+    "model_name": "PizzaBot",
+    "manufacturer": "Picnic",
+    "category": "피자 조리 자동화 시스템",
+    "purpose": "도우 소스 도포, 치즈 및 토핑 자동 분배",
+    "sensors": "컨베이어 위치 센서, 토핑 정밀 분배 스캐너",
+    "specifications": "시간당 수백 판의 커스텀 피자 조립 생산 능력",
+    "description": "주문된 옵션에 맞춰 피자 도우 위에 소스와 치즈, 토핑을 오차 없이 골고루 뿌려주는 자동화 피자 조리 로봇입니다."
+  },
+  {
+    "robot_id": "robot_192",
+    "model_name": "MakrSharks BurgerBot",
+    "manufacturer": "MakrSharks",
+    "category": "햄버거 조립 자동화 로봇",
+    "purpose": "번 굽기, 패티 굽기, 소스 및 야채 조합 자동화",
+    "sensors": "온도 센서, 패티 두께 측정 비전",
+    "specifications": "위생적인 스테인리스 스틸 바디, 패스트푸드 라인 연동",
+    "description": "주문 접수부터 맛있는 수제 햄버거가 완성되어 나올 때까지의 전 과정을 무인으로 조립하는 햄버거 로봇입니다."
+  },
+  {
+    "robot_id": "robot_193",
+    "model_name": "Barman Robot",
+    "manufacturer": "Kuka / MakrSharks",
+    "category": "칵테일 제조 바텐더 로봇",
+    "purpose": "정확한 비율의 칵테일 및 음료 제조",
+    "sensors": "액체 유량 센서, 컵 위치 인식 비전",
+    "specifications": "다관절 로봇암 2기 연동, 화려한 셰이킹 퍼포먼스",
+    "description": "바텐더처럼 다양한 술과 시럽을 정확한 계량으로 섞어 맛있는 칵테일을 만들어 손님에게 건네주는 바텐더 로봇입니다."
+  },
+  {
+    "robot_id": "robot_194",
+    "model_name": "Cafe X",
+    "manufacturer": "Cafe X Technologies",
+    "category": "무인 로봇 카페 시스템",
+    "purpose": "에스프레소 추출 및 테이크아웃 컵 전달",
+    "sensors": "주문 연동 바코드 스캐너, 컵 위치 센서",
+    "specifications": "산업용 로봇암 기반 유리 부스 내 완전 자동 운영",
+    "description": "공항이나 쇼핑몰에 설치되어 키오스크 주문을 받으면 로봇팔이 직접 에스프레소를 내려 고객에게 전달하는 무인 카페입니다."
+  },
+  {
+    "robot_id": "robot_195",
+    "model_name": "RoboCee IceCream",
+    "manufacturer": "Ceeos",
+    "category": "소프트아이스크림 로봇",
+    "purpose": "콘에 아이스크림 예쁘게 짜서 담기",
+    "sensors": "콘 위치 인식 3D 센서, 토출량 조절 모터",
+    "specifications": "식품위생 등급 스테인리스 노즐, 연속 제조 제어",
+    "description": "일정한 모양과 무게로 소프트아이스크림을 콘 위에 흐트러짐 없이 예쁘게 짜서 손님에게 건네주는 디저트 로봇입니다."
+  },
+  {
+    "robot_id": "robot_196",
+    "model_name": "MediMinder",
+    "manufacturer": "ScriptDrop",
+    "category": "의약품 분배 관리 로봇",
+    "purpose": "병원 병동 환자별 정시 약물 자동 분류 및 분배",
+    "sensors": "바코드 및 QR 의약품 스캐너, 중량 감지 센서",
+    "specifications": "시큐리티 잠금 장치 탑재 약품 트레이, 병원 전자처방전 연동",
+    "description": "간호사가 실수하기 쉬운 환자별 약 복용 시간에 맞춰 정확한 약을 분류하고 배출해 주는 병원 전문 약제 로봇입니다."
+  },
+  {
+    "robot_id": "robot_197",
+    "model_name": "TUG Autonomous Transport",
+    "manufacturer": "Aethon",
+    "category": "병원 물류 이송 로봇",
+    "purpose": "병원 내 식단, 세탁물, 약품 및 폐기물 자동 운반",
+    "sensors": "자연어 지도 매핑 LiDAR, 자동문 무선 연동 모듈",
+    "specifications": "대형 수납 카트 결합형, 엘리베이터 무인 탑승 및 승하차",
+    "description": "대형 병원 복도를 자율주행하며 무거운 짐을 실은 카트를 끌고 각 병동과 물류창고를 오가는 병원 필수 물류 로봇입니다."
+  },
+  {
+    "robot_id": "robot_198",
+    "model_name": "Xenex Germ-Zapping Robot",
+    "manufacturer": "Xenex Disinfection Services",
+    "category": "제이디 펄스 크세논 방역 로봇",
+    "purpose": "병원 수술실 및 격리병동 바이러스/세균 박멸",
+    "sensors": "360도 적외선 인체 감지 안전 센서",
+    "specifications": "펄스 크세논 자외선 램프 탑재, 수 분 내 병원성 미생물 파괴",
+    "description": "약품 소독으로 지우기 힘든 병원 내 슈퍼박테리아와 바이러스를 강력한 풀스 자외선 빛으로 소독하는 방역 로봇입니다."
+  },
+  {
+    "robot_id": "robot_199",
+    "model_name": "Pally",
+    "manufacturer": "Milvus Robotics",
+    "category": "자율이동 팔레트 이송 로봇",
+    "purpose": "물류창고 팔레트 상하차 및 자재 공급",
+    "sensors": "안전 레이저 스캐너, 3D 카메라, 팔레트 슬롯 인식 비전",
+    "specifications": "적재 하중 600kg, 지게차 없이 팔레트 하단 진입 리프팅",
+    "description": "지게차가 들어가기 어려운 좁은 물류 창고 통로에서도 팔레트 밑으로 쏙 들어가 스스로 들어 올려 운반하는 AMR입니다."
+  },
+  {
+    "robot_id": "robot_200",
+    "model_name": "RoBoHoN",
+    "manufacturer": "Sharp",
+    "category": "모바일 로봇 스마트폰",
+    "purpose": "전화 통화, 대화, 춤추기 및 프로젝터 정보 투사",
+    "sensors": "얼굴 인식 카메라, 음성 인식 마이크, 내장 프로젝터 렌즈",
+    "specifications": "신장 19.5cm, 안드로이드 OS 탑재, 두발 걷기 및 앉기 동작",
+    "description": "스마트폰 기능과 귀여운 로봇의 형상을 결합하여, 말을 걸면 일어나서 춤을 추고 벽에 화면을 쏘아 정보를 보여주는 혁신적인 소형 로봇입니다."
+  }
+]

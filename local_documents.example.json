@@ -1,0 +1,11 @@
+[
+  {
+    "robot_id": "robot_002",
+    "title": "실제 문서 제목으로 변경",
+    "file": "documents/실제_원문.txt",
+    "url": "",
+    "item_document": false,
+    "license": "확인한 실제 이용 조건을 입력",
+    "attribution_url": ""
+  }
+]

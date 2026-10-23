@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-23",
+  "url": "http://127.0.0.1:8502/",
+  "checks": {
+    "Ameca 실제 질문·답변": true,
+    "인용 문서 본문·원문 URL": true,
+    "CC BY-SA와 기여자 이력 링크": true,
+    "자연어 조건 결과 Spot·ANYmal X": true,
+    "추가 검색 기본 꺼짐": true,
+    "조건 검색 결과 Spot 클릭 시 모델 전환": true,
+    "Spot 실제 현장 분석 확인불가 판정": true,
+    "범위형 인용 2–5 포함 답변의 근거 5건 표시": true
+  },
+  "online_collection_observed": {
+    "reddit": "HTTP 403, 수집 없음",
+    "patents": "HTTP 503, 수집 없음",
+    "ros": "HTTP 404, 수집 없음",
+    "wikidata": "Ameca 검색에서 2개 후보, 선별·색인으로 1청크 증가"
+  },
+  "note": "온라인 추가 수집 후 DB는 1647→1648청크. live_results.json의 1647은 CLI 검증 종료 시점 값.",
+  "screenshots": [
+    "screenshots/05_answer.jpg",
+    "screenshots/09_search_chat.jpg",
+    "screenshots/10_analysis.jpg"
+  ]
+}
